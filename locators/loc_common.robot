@@ -1,16 +1,30 @@
-*** Variables ***
+*** Keywords ***
 
-# textbox theo placeholder
-${TEXTBOX_BY_PLACEHOLDER}    xpath=//input[@placeholder]
+Textbox By Label
+    [Arguments]    ${label}
+    RETURN
+    ...    xpath=//input[@name="${label}"]
 
-# textbox theo name
-${TEXTBOX_BY_NAME}           xpath=//input[@name]
 
-# textbox theo data-qa
-${TEXTBOX_BY_DATAQA}         xpath=//input[@data-qa]
+Textbox By Placeholder
+    [Arguments]    ${placeholder}
+    RETURN
+    ...    xpath=//input[@placeholder="${placeholder}"]
 
-# button
-${BUTTON}                    xpath=//button
 
-# link
-${LINK}                      xpath=//a
+Textbox By DataQA
+    [Arguments]    ${value}
+    RETURN
+    ...    xpath=//input[@data-qa="${value}"]
+
+
+Button By Text
+    [Arguments]    ${text}
+    RETURN
+    ...    xpath=//button[normalize-space()="${text}"]
+
+
+Link By Text
+    [Arguments]    ${text}
+    RETURN
+    ...    xpath=//a[normalize-space()="${text}"]
