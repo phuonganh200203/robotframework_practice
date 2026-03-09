@@ -14,18 +14,16 @@ Open Browser Suite
 
 
 Get Visible Textbox
-    [Arguments]    ${field}
+    [Arguments]    ${field_label}
 
-    ${locator}=    Textbox By Name Or Placeholder    ${field}
+    ${locator}=    Textbox By Name Or Placeholder    ${field_label}
     Wait For Elements State    ${locator}    visible
 
     RETURN    ${locator}
 
 
-Input Text Into Field
-    [Arguments]    ${field}    ${value}
-
-    ${locator}=    Get Visible Textbox    ${field}
+I input ${value} into the ${field_label} field
+    ${locator}=    Get Visible Textbox    ${field_label}
     Clear Text     ${locator}
     Fill Text      ${locator}    ${value}
 

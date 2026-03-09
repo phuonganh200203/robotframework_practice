@@ -29,24 +29,24 @@ Go To Signup Page Successfully
 Register New Account
     Click Link By Text    Signup / Login
 
-    Input Text Into Field    signup-name     testuser
-    Input Text Into Field    signup-email    ${EMAIL}
+    I input testuser into the signup-name field
+    I input ${EMAIL} into the signup-email field
 
-    Click Button By Text     Signup
+    Click Button By Text    Signup
     Get Text    body    contains    ENTER ACCOUNT INFORMATION
 
     Click    id=id_gender2
 
-    Input Text Into Field    password        ${PASSWORD}
-    Input Text Into Field    first_name      Test
-    Input Text Into Field    last_name       User
-    Input Text Into Field    address1        123 Street
-    Input Text Into Field    state           HCM
-    Input Text Into Field    city            HCM
-    Input Text Into Field    zipcode         700000
-    Input Text Into Field    mobile_number   0123456789
+    I input ${PASSWORD} into the password field
+    I input Test into the first_name field
+    I input User into the last_name field
+    I input 123 Street into the address1 field
+    I input HCM into the state field
+    I input HCM into the city field
+    I input 700000 into the zipcode field
+    I input 0123456789 into the mobile_number field
 
-    Click Button By Text     Create Account
+    Click Button By Text    Create Account
     Get Text    body    contains    ACCOUNT CREATED!
 
 
@@ -56,10 +56,10 @@ Login And Delete Account Successfully
 
     Get Text    body    contains    Login to your account
 
-    Input Text Into Field    login-email       ${EMAIL}
-    Input Text Into Field    login-password    ${PASSWORD}
+    I input ${EMAIL} into the login-email field
+    I input ${PASSWORD} into the login-password field
 
-    Click Button By Text     Login
+    Click Button By Text    Login
     Get Text    body    contains    Logged in as
 
     Click Link By Text    Delete Account
@@ -70,11 +70,10 @@ Login With Incorrect Email And Password
     Click Link By Text    Signup / Login
     Get Text    body    contains    Login to your account
 
-    Input Text Into Field    login-email       wrongemail@test.com
-    Input Text Into Field    login-password    wrongpassword
+    I input wrongemail@test.com into the login-email field
+    I input wrongpassword into the login-password field
 
-    Click Button By Text     Login
-
+    Click Button By Text    Login
     Get Text    body    contains    Your email or password is incorrect!
 
 
@@ -82,9 +81,8 @@ Signup With Existing Email
     Click Link By Text    Signup / Login
     Get Text    body    contains    New User Signup!
 
-    Input Text Into Field    signup-name     TestUser
-    Input Text Into Field    signup-email    ${EMAIL}
+    I input TestUser into the signup-name field
+    I input ${EMAIL} into the signup-email field
 
-    Click Button By Text     Signup
-
+    Click Button By Text    Signup
     Get Text    body    contains    Email Address already exist!
