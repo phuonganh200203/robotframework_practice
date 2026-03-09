@@ -1,21 +1,9 @@
 *** Keywords ***
 
-Textbox By Label
-    [Arguments]    ${label}
-    RETURN
-    ...    xpath=//input[@name="${label}"]
-
-
-Textbox By Placeholder
-    [Arguments]    ${placeholder}
-    RETURN
-    ...    xpath=//input[@placeholder="${placeholder}"]
-
-
-Textbox By DataQA
+Textbox By Name Or Placeholder
     [Arguments]    ${value}
     RETURN
-    ...    xpath=//input[@data-qa="${value}"]
+    ...    xpath=//input[@name="${value}" or @placeholder="${value}" or @data-qa="${value}"]
 
 
 Button By Text
