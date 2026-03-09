@@ -13,31 +13,32 @@ Open Browser Suite
     New Page    ${URL}
 
 
-Input Text By Placeholder
-    [Arguments]    ${placeholder}    ${text}
+Get Visible Textbox
+    [Arguments]    ${field}
 
-    Fill Text    xpath=//input[@placeholder="${placeholder}"]    ${text}
+    ${locator}=    Textbox By Name Or Placeholder    ${field}
+    Wait For Elements State    ${locator}    visible
 
-
-Input Text By Name
-    [Arguments]    ${name}    ${text}
-
-    Fill Text    xpath=//input[@name="${name}"]    ${text}
+    RETURN    ${locator}
 
 
-Input Text By DataQA
-    [Arguments]    ${value}    ${text}
+Input Text Into Field
+    [Arguments]    ${field}    ${value}
 
-    Fill Text    xpath=//input[@data-qa="${value}"]    ${text}
+    ${locator}=    Get Visible Textbox    ${field}
+    Clear Text     ${locator}
+    Fill Text      ${locator}    ${value}
 
 
 Click Button By Text
     [Arguments]    ${text}
 
-    Click    xpath=//button[normalize-space()="${text}"]
+    ${locator}=    Button By Text    ${text}
+    Click    ${locator}
 
 
 Click Link By Text
     [Arguments]    ${text}
 
-    Click    xpath=//a[normalize-space()="${text}"]
+    ${locator}=    Link By Text    ${text}
+    Click    ${locator}
