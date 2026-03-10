@@ -10,7 +10,7 @@ Open Browser Suite
 
     New Browser    ${BROWSER}
     New Context
-    New Page    ${URL}
+    New Page       ${URL}
 
 
 Get Visible Textbox
@@ -18,7 +18,6 @@ Get Visible Textbox
 
     ${locator}=    Textbox By Name Or Placeholder    ${field_label}
     Wait For Elements State    ${locator}    visible
-
     RETURN    ${locator}
 
 
@@ -32,6 +31,7 @@ Click Button By Text
     [Arguments]    ${text}
 
     ${locator}=    Button By Text    ${text}
+    Wait For Elements State    ${locator}    visible
     Click    ${locator}
 
 
@@ -39,4 +39,15 @@ Click Link By Text
     [Arguments]    ${text}
 
     ${locator}=    Link By Text    ${text}
+    Wait For Elements State    ${locator}    visible
     Click    ${locator}
+
+
+I verify ${button_name} button is ${status}
+    ${locator}=    Button By Text    ${button_name}
+    Wait For Elements State    ${locator}    ${status}
+
+
+I verify ${text_value} text is ${status}
+    ${locator}=    Text By Value    ${text_value}
+    Wait For Elements State    ${locator}    ${status}

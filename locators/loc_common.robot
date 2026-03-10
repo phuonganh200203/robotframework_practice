@@ -9,10 +9,16 @@ Textbox By Name Or Placeholder
 Button By Text
     [Arguments]    ${text}
     RETURN
-    ...    xpath=//button[normalize-space()="${text}"]
+    ...    xpath=(//button[normalize-space()="${text}"])
 
 
 Link By Text
     [Arguments]    ${text}
     RETURN
-    ...    xpath=//a[normalize-space()="${text}"]
+    ...    xpath=(//a[normalize-space()="${text}"])
+
+
+Text By Value
+    [Arguments]    ${text}
+    RETURN
+    ...    xpath=(//*[contains(normalize-space(), "${text}")])[1]
