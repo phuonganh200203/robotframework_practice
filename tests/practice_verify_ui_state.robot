@@ -11,7 +11,7 @@ Suite Teardown    Close Browser
 
 ${URL}        https://automationexercise.com/
 ${BROWSER}    chromium
-${EMAIL}      awwu1ua3est123@gmail.com
+${EMAIL}      testq21hbq1s@mail.com
 ${PASSWORD}   123456
 
 
@@ -22,24 +22,23 @@ Open Home Page Successfully
 
 
 Go To Signup Page Successfully
-    Click Link By Text    Signup / Login
+    I click the Signup / Login link
     I verify New User Signup text is visible
-    I verify Signup button is visible
 
 
 Register New Account
-    Click Link By Text    Signup / Login
+    I click the Signup / Login link
 
     I input testuser into the signup-name field
+    The signup-name text field should be testuser
+    
     I input ${EMAIL} into the signup-email field
+    The signup-email text field should be ${EMAIL}
 
-    I verify Signup button is visible
-    Click Button By Text    Signup
-
+    I click the Signup button
     I verify Enter Account Information text is visible
 
     Click    id=id_gender2
-
     I input ${PASSWORD} into the password field
     I input Test into the first_name field
     I input User into the last_name field
@@ -49,24 +48,20 @@ Register New Account
     I input 700000 into the zipcode field
     I input 0123456789 into the mobile_number field
 
-    I verify Create Account button is visible
-    Click Button By Text    Create Account
-
-    I verify Account Created! text is visible
-    I verify Continue button is visible
-    Click Link By Text    Continue
-    Click Link By Text     Delete Account
+    I click the Create Account button
+    I verify Account Created text is visible
+    I click the Continue link
+    I click the Delete Account link
 
 
 Login With Incorrect Email And Password
-    Click Link By Text    Signup / Login
+    I click the Signup / Login link
 
     I verify Login to your account text is visible
-    I verify Login button is visible
 
     I input wrongemail@test.com into the login-email field
     I input wrongpassword into the login-password field
 
-    Click Button By Text    Login
+    I click the Login button
 
     I verify Your email or password is incorrect text is visible

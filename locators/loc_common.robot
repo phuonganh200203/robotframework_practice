@@ -1,9 +1,9 @@
 *** Keywords ***
 
-Textbox By Name Or Placeholder
-    [Arguments]    ${value}
+Textbox By Label Or Placeholder
+    [Arguments]    ${label}
     RETURN
-    ...    xpath=//input[@name="${value}" or @placeholder="${value}" or @data-qa="${value}"]
+    ...    xpath=//input[@placeholder="${label}" or @name="${label}" or @data-qa="${label}"]
 
 
 Button By Text
@@ -15,7 +15,7 @@ Button By Text
 Link By Text
     [Arguments]    ${text}
     RETURN
-    ...    xpath=(//a[normalize-space()="${text}"])
+    ...    xpath=//a[contains(normalize-space(), "${text}")]
 
 
 Text By Value

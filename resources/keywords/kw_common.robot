@@ -16,29 +16,24 @@ Open Browser Suite
 Get Visible Textbox
     [Arguments]    ${field_label}
 
-    ${locator}=    Textbox By Name Or Placeholder    ${field_label}
+    ${locator}=    Textbox By Label Or Placeholder    ${field_label}
     Wait For Elements State    ${locator}    visible
     RETURN    ${locator}
 
 
 I input ${value} into the ${field_label} field
     ${locator}=    Get Visible Textbox    ${field_label}
-    Clear Text     ${locator}
     Fill Text      ${locator}    ${value}
 
 
-Click Button By Text
-    [Arguments]    ${text}
-
-    ${locator}=    Button By Text    ${text}
+I click the ${button_name} button
+    ${locator}=    Button By Text    ${button_name}
     Wait For Elements State    ${locator}    visible
     Click    ${locator}
 
 
-Click Link By Text
-    [Arguments]    ${text}
-
-    ${locator}=    Link By Text    ${text}
+I click the ${link_name} link
+    ${locator}=    Link By Text    ${link_name}
     Wait For Elements State    ${locator}    visible
     Click    ${locator}
 
@@ -51,3 +46,8 @@ I verify ${button_name} button is ${status}
 I verify ${text_value} text is ${status}
     ${locator}=    Text By Value    ${text_value}
     Wait For Elements State    ${locator}    ${status}
+
+The ${field_label} text field should be ${value}
+    ${locator}=    Textbox By Label Or Placeholder    ${field_label}
+    ${actual}=    Get Attribute    ${locator}    value
+    Should Be Equal    ${actual}    ${value}
