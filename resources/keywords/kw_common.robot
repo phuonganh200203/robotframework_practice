@@ -38,16 +38,21 @@ I click the ${link_name} link
     Click    ${locator}
 
 
-I verify ${button_name} button is ${status}
+I verify ${button_name} button is ${status} status
     ${locator}=    Button By Text    ${button_name}
     Wait For Elements State    ${locator}    ${status}
 
 
-I verify ${text_value} text is ${status}
+I verify ${text_value} text is ${status} status
     ${locator}=    Text By Value    ${text_value}
+    Wait For Elements State    ${locator}    ${status}
+
+I verify ${field_label} text field is ${status} status
+    ${locator}=    Textbox By Label Or Placeholder    ${field_label}
     Wait For Elements State    ${locator}    ${status}
 
 The ${field_label} text field should be ${value}
     ${locator}=    Textbox By Label Or Placeholder    ${field_label}
+    Wait For Elements State    ${locator}    visible
     ${actual}=    Get Attribute    ${locator}    value
     Should Be Equal    ${actual}    ${value}

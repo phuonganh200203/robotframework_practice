@@ -18,12 +18,12 @@ ${PASSWORD}   123456
 *** Test Cases ***
 
 Open Home Page Successfully
-    I verify AutomationExercise text is visible
+    I verify AutomationExercise text is visible status
 
 
 Go To Signup Page Successfully
     I click the Signup / Login link
-    I verify New User Signup text is visible
+    I verify New User Signup text is visible status
 
 
 Register New Account
@@ -31,12 +31,12 @@ Register New Account
 
     I input testuser into the signup-name field
     The signup-name text field should be testuser
-    
+
     I input ${EMAIL} into the signup-email field
     The signup-email text field should be ${EMAIL}
 
     I click the Signup button
-    I verify Enter Account Information text is visible
+    I verify Enter Account Information text is visible status
 
     Click    id=id_gender2
     I input ${PASSWORD} into the password field
@@ -49,7 +49,7 @@ Register New Account
     I input 0123456789 into the mobile_number field
 
     I click the Create Account button
-    I verify Account Created text is visible
+    I verify Account Created text is visible status
     I click the Continue link
     I click the Delete Account link
 
@@ -57,11 +57,11 @@ Register New Account
 Login With Incorrect Email And Password
     I click the Signup / Login link
 
-    I verify Login to your account text is visible
+    I verify Login to your account text is visible status
 
     I input wrongemail@test.com into the login-email field
     I input wrongpassword into the login-password field
 
     I click the Login button
 
-    I verify Your email or password is incorrect text is visible
+    I verify Your email or password is incorrect text is visible status
