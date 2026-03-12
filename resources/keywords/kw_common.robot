@@ -56,3 +56,42 @@ The ${field_label} text field should be ${value}
     Wait For Elements State    ${locator}    visible
     ${actual}=    Get Attribute    ${locator}    value
     Should Be Equal    ${actual}    ${value}
+
+#Verify textbox empty
+The ${field_label} text field should be empty
+    ${locator}=    Textbox By Label Or Placeholder    ${field_label}
+    ${value}=    Get Attribute    ${locator}    value
+    Should Be Empty    ${value}
+
+#Verify textbox enabled
+The ${field_label} text field should be enabled
+    ${locator}=    Textbox By Label Or Placeholder    ${field_label}
+    Wait For Elements State    ${locator}    enabled
+
+#Verify textbox disabled
+The ${field_label} text field should be disabled
+    ${locator}=    Textbox By Label Or Placeholder    ${field_label}
+    Wait For Elements State    ${locator}    disabled
+
+#checkbox
+I check the ${checkbox_name} checkbox
+    ${locator}=    Checkbox By Label    ${checkbox_name}
+    Wait For Elements State    ${locator}    visible
+    Check Checkbox    ${locator}
+
+I uncheck the ${checkbox_name} checkbox
+    ${locator}=    Checkbox By Label    ${checkbox_name}
+    Wait For Elements State    ${locator}    visible
+    Uncheck Checkbox    ${locator}
+
+I verify the ${checkbox_name} checkbox should be checked
+    ${locator}=    Checkbox By Label    ${checkbox_name}
+    Wait For Elements State    ${locator}    visible
+    ${state}=    Get Checkbox State    ${locator}
+    Should Be True    ${state}
+
+I verify the ${checkbox_name} checkbox should be unchecked
+    ${locator}=    Checkbox By Label    ${checkbox_name}
+    Wait For Elements State    ${locator}    visible
+    ${state}=    Get Checkbox State    ${locator}
+    Should Be False    ${state}
