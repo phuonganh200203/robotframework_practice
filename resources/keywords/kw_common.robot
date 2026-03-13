@@ -51,6 +51,7 @@ I verify ${field_label} text field is ${status} status
     ${locator}=    Textbox By Label Or Placeholder    ${field_label}
     Wait For Elements State    ${locator}    ${status}
 
+#compare
 The ${field_label} text field should be ${value}
     ${locator}=    Textbox By Label Or Placeholder    ${field_label}
     Wait For Elements State    ${locator}    visible
@@ -63,26 +64,14 @@ The ${field_label} text field should be empty
     ${value}=    Get Attribute    ${locator}    value
     Should Be Empty    ${value}
 
-#Verify textbox enabled
-The ${field_label} text field should be enabled
-    ${locator}=    Textbox By Label Or Placeholder    ${field_label}
-    Wait For Elements State    ${locator}    enabled
-
-#Verify textbox disabled
-The ${field_label} text field should be disabled
-    ${locator}=    Textbox By Label Or Placeholder    ${field_label}
-    Wait For Elements State    ${locator}    disabled
-
 #checkbox
 I check the ${checkbox_name} checkbox
     ${locator}=    Checkbox By Label    ${checkbox_name}
     Wait For Elements State    ${locator}    visible
-    Check Checkbox    ${locator}
-
-I uncheck the ${checkbox_name} checkbox
-    ${locator}=    Checkbox By Label    ${checkbox_name}
-    Wait For Elements State    ${locator}    visible
-    Uncheck Checkbox    ${locator}
+    ${state}=    Get Checkbox State    ${locator}
+    IF    not ${state}
+        Check Checkbox    ${locator}
+    END
 
 I verify the ${checkbox_name} checkbox should be checked
     ${locator}=    Checkbox By Label    ${checkbox_name}
@@ -90,8 +79,51 @@ I verify the ${checkbox_name} checkbox should be checked
     ${state}=    Get Checkbox State    ${locator}
     Should Be True    ${state}
 
+
+I uncheck the ${checkbox_name} checkbox
+    ${locator}=    Checkbox By Label    ${checkbox_name}
+    Wait For Elements State    ${locator}    visible
+    ${state}=    Get Checkbox State    ${locator}
+    IF    ${state}
+        Uncheck Checkbox    ${locator}
+    END
+
 I verify the ${checkbox_name} checkbox should be unchecked
     ${locator}=    Checkbox By Label    ${checkbox_name}
     Wait For Elements State    ${locator}    visible
     ${state}=    Get Checkbox State    ${locator}
     Should Be False    ${state}
+
+I verify the ${checkbox_name} checkbox should be enabled
+    ${locator}=    Checkbox By Label    ${checkbox_name}
+    Wait For Elements State    ${locator}    enabled
+
+I verify the ${checkbox_name} checkbox should be disabled
+    ${locator}=    Checkbox By Label    ${checkbox_name}
+    Wait For Elements State    ${locator}    disabled
+
+#radio
+I select the ${radio_name} radio
+    ${locator}=    Radio By Label    ${radio_name}
+    Wait For Elements State    ${locator}    visible
+    Click    ${locator}
+
+I verify the ${radio_name} radio should be selected
+    ${locator}=    Radio By Label    ${radio_name}
+    Wait For Elements State    ${locator}    visible
+    ${state}=    Get Checkbox State    ${locator}
+    Should Be True    ${state}
+
+I verify the ${radio_name} radio should not be selected
+    ${locator}=    Radio By Label    ${radio_name}
+    Wait For Elements State    ${locator}    visible
+    ${state}=    Get Checkbox State    ${locator}
+    Should Be False    ${state}
+
+I verify the ${radio_name} radio should be enabled
+    ${locator}=    Radio By Label    ${radio_name}
+    Wait For Elements State    ${locator}    enabled
+
+I verify the ${radio_name} radio should be disabled
+    ${locator}=    Radio By Label    ${radio_name}
+    Wait For Elements State    ${locator}    disabled

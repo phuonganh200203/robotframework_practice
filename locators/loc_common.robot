@@ -27,3 +27,8 @@ Checkbox By Label
     [Arguments]    ${label}
     RETURN
     ...    xpath=//input[@type="checkbox" and (@name="${label}" or @id="${label}")]
+
+Radio By Label
+    [Arguments]    ${label}
+    RETURN
+    ...    xpath=//input[@type="radio" and (@name="${label}" or @value="${label}" or @data-qa="${label}" or @id="${label}")]
