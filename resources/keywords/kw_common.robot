@@ -38,16 +38,16 @@ I click the ${link_name} link
     Click    ${locator}
 
 
-I verify ${button_name} button is ${status} status
+I verify the ${button_name} button is ${status} status
     ${locator}=    Button By Text    ${button_name}
     Wait For Elements State    ${locator}    ${status}
 
 
-I verify ${text_value} text is ${status} status
+I verify the ${text_value} text is ${status} status
     ${locator}=    Text By Value    ${text_value}
     Wait For Elements State    ${locator}    ${status}
 
-I verify ${field_label} text field is ${status} status
+I verify the ${field_label} text field is ${status} status
     ${locator}=    Textbox By Label Or Placeholder    ${field_label}
     Wait For Elements State    ${locator}    ${status}
 
@@ -65,65 +65,58 @@ The ${field_label} text field should be empty
     Should Be Empty    ${value}
 
 #checkbox
-I check the ${checkbox_name} checkbox
-    ${locator}=    Checkbox By Label    ${checkbox_name}
+I select the ${option} option under the ${checkbox_name} checkbox
+    ${locator}=    Checkbox By Label    ${option}
     Wait For Elements State    ${locator}    visible
     ${state}=    Get Checkbox State    ${locator}
     IF    not ${state}
         Check Checkbox    ${locator}
     END
 
-I verify the ${checkbox_name} checkbox should be checked
-    ${locator}=    Checkbox By Label    ${checkbox_name}
-    Wait For Elements State    ${locator}    visible
-    ${state}=    Get Checkbox State    ${locator}
-    Should Be True    ${state}
-
-
-I uncheck the ${checkbox_name} checkbox
-    ${locator}=    Checkbox By Label    ${checkbox_name}
+I unselect the ${option} option under the ${checkbox_name} checkbox
+    ${locator}=    Checkbox By Label    ${option}
     Wait For Elements State    ${locator}    visible
     ${state}=    Get Checkbox State    ${locator}
     IF    ${state}
         Uncheck Checkbox    ${locator}
-    END
+    END 
 
-I verify the ${checkbox_name} checkbox should be unchecked
-    ${locator}=    Checkbox By Label    ${checkbox_name}
-    Wait For Elements State    ${locator}    visible
-    ${state}=    Get Checkbox State    ${locator}
-    Should Be False    ${state}
-
-I verify the ${checkbox_name} checkbox should be enabled
-    ${locator}=    Checkbox By Label    ${checkbox_name}
-    Wait For Elements State    ${locator}    enabled
-
-I verify the ${checkbox_name} checkbox should be disabled
-    ${locator}=    Checkbox By Label    ${checkbox_name}
-    Wait For Elements State    ${locator}    disabled
-
-#radio
-I select the ${radio_name} radio
-    ${locator}=    Radio By Label    ${radio_name}
-    Wait For Elements State    ${locator}    visible
-    Click    ${locator}
-
-I verify the ${radio_name} radio should be selected
-    ${locator}=    Radio By Label    ${radio_name}
+I verify the ${option} option under the ${checkbox_name} checkbox is checked
+    ${locator}=    Checkbox By Label    ${option}
     Wait For Elements State    ${locator}    visible
     ${state}=    Get Checkbox State    ${locator}
     Should Be True    ${state}
 
-I verify the ${radio_name} radio should not be selected
-    ${locator}=    Radio By Label    ${radio_name}
+I verify the ${option} option under the ${checkbox_name} checkbox is unchecked
+    ${locator}=    Checkbox By Label    ${option}
     Wait For Elements State    ${locator}    visible
     ${state}=    Get Checkbox State    ${locator}
     Should Be False    ${state}
 
-I verify the ${radio_name} radio should be enabled
-    ${locator}=    Radio By Label    ${radio_name}
-    Wait For Elements State    ${locator}    enabled
+I verify the ${checkbox_name} checkbox is ${status} status
+    ${locator}=    Checkbox By Label    ${checkbox_name}
+    Wait For Elements State    ${locator}    ${status}
 
-I verify the ${radio_name} radio should be disabled
+#radio
+I select the ${option} option under the ${radio_name} radio button
+    ${locator}=    Radio By Label    ${option}
+    Wait For Elements State    ${locator}    visible
+    Click    ${locator}
+
+I verify the ${option} option under the ${radio_name} radio button is selected
+    ${locator}=    Radio By Label    ${option}  
+    Wait For Elements State    ${locator}    visible
+    ${state}=    Get Checkbox State    ${locator}
+    Should Be True    ${state}
+
+I verify the ${option} option under the ${radio_name} radio button is unselected
+    ${locator}=    Radio By Label    ${option}
+    Wait For Elements State    ${locator}    visible
+    ${state}=    Get Checkbox State    ${locator}
+    Should Be False    ${state}
+
+I verify the ${radio_name} radio button is ${status} status
     ${locator}=    Radio By Label    ${radio_name}
-    Wait For Elements State    ${locator}    disabled
+    Wait For Elements State    ${locator}    ${status}
+
+
