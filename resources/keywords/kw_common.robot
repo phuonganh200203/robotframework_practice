@@ -8,7 +8,7 @@ Resource    ../../locators/loc_common.robot
 Open Browser Suite
     [Arguments]    ${URL}    ${BROWSER}
 
-    New Browser    ${BROWSER}
+    New Browser    ${BROWSER}    headless=False
     New Context
     New Page       ${URL}
 
@@ -23,8 +23,8 @@ Get Visible Textbox
 
 I input ${value} into the ${field_label} field
     ${locator}=    Get Visible Textbox    ${field_label}
+    Click    ${locator}
     Fill Text      ${locator}    ${value}
-
 
 I click the ${button_name} button
     ${locator}=    Button By Text    ${button_name}
@@ -66,7 +66,7 @@ The ${field_label} text field should be empty
 
 #checkbox
 I select the ${option} option under the ${checkbox_name} checkbox
-    ${locator}=    Checkbox By Label    ${option}
+    ${locator}=    Checkbox By Label    ${checkbox_name}    ${option}
     Wait For Elements State    ${locator}    visible
     ${state}=    Get Checkbox State    ${locator}
     IF    not ${state}
@@ -74,7 +74,7 @@ I select the ${option} option under the ${checkbox_name} checkbox
     END
 
 I unselect the ${option} option under the ${checkbox_name} checkbox
-    ${locator}=    Checkbox By Label    ${option}
+    ${locator}=    Checkbox By Label    ${checkbox_name}    ${option}
     Wait For Elements State    ${locator}    visible
     ${state}=    Get Checkbox State    ${locator}
     IF    ${state}
@@ -82,41 +82,41 @@ I unselect the ${option} option under the ${checkbox_name} checkbox
     END 
 
 I verify the ${option} option under the ${checkbox_name} checkbox is checked
-    ${locator}=    Checkbox By Label    ${option}
+    ${locator}=    Checkbox By Label    ${checkbox_name}    ${option}
     Wait For Elements State    ${locator}    visible
     ${state}=    Get Checkbox State    ${locator}
     Should Be True    ${state}
 
 I verify the ${option} option under the ${checkbox_name} checkbox is unchecked
-    ${locator}=    Checkbox By Label    ${option}
+    ${locator}=    Checkbox By Label    ${checkbox_name}    ${option}
     Wait For Elements State    ${locator}    visible
     ${state}=    Get Checkbox State    ${locator}
-    Should Be False    ${state}
+    Should Not Be True    ${state}
 
-I verify the ${checkbox_name} checkbox is ${status} status
-    ${locator}=    Checkbox By Label    ${checkbox_name}
+I verify the ${option} option under the ${checkbox_name} checkbox is ${status} status
+    ${locator}=    Checkbox By Label    ${checkbox_name}    ${option}
     Wait For Elements State    ${locator}    ${status}
 
 #radio
 I select the ${option} option under the ${radio_name} radio button
-    ${locator}=    Radio By Label    ${option}
+    ${locator}=    Radio By Label    ${radio_name}    ${option}
     Wait For Elements State    ${locator}    visible
     Click    ${locator}
 
 I verify the ${option} option under the ${radio_name} radio button is selected
-    ${locator}=    Radio By Label    ${option}  
+    ${locator}=    Radio By Label    ${radio_name}    ${option}  
     Wait For Elements State    ${locator}    visible
     ${state}=    Get Checkbox State    ${locator}
     Should Be True    ${state}
 
 I verify the ${option} option under the ${radio_name} radio button is unselected
-    ${locator}=    Radio By Label    ${option}
+    ${locator}=    Radio By Label    ${radio_name}    ${option}
     Wait For Elements State    ${locator}    visible
     ${state}=    Get Checkbox State    ${locator}
-    Should Be False    ${state}
+    Should Not Be True    ${state}    
 
-I verify the ${radio_name} radio button is ${status} status
-    ${locator}=    Radio By Label    ${radio_name}
+I verify the ${option} option under the ${radradio_name} checkbox is ${status} status
+    ${locator}=    Radio By Label    ${radradio_name}    ${option}
     Wait For Elements State    ${locator}    ${status}
 
 

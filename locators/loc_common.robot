@@ -3,7 +3,7 @@
 Textbox By Label Or Placeholder
     [Arguments]    ${label}
     RETURN
-    ...    xpath=//input[@placeholder="${label}" or @name="${label}" or @data-qa="${label}"]
+    ...    xpath=//input[@data-qa="${label}" or @name="${label}" or @placeholder="${label}"]
 
 
 Button By Text
@@ -24,11 +24,11 @@ Text By Value
     ...    xpath=(//*[contains(normalize-space(), "${text}")])[1]
 
 Checkbox By Label
-    [Arguments]    ${label}
+    [Arguments]    ${label}    ${option}
     RETURN
-    ...    xpath=//input[@type="checkbox" and (@name="${label}" or @id="${label}")]
+    ...    xpath=//*[contains(normalize-space(), "${label}")]//input[@type="checkbox" and (@name="${option}" or @id="${option}")]
 
 Radio By Label
-    [Arguments]    ${label}
+    [Arguments]    ${label}    ${option}
     RETURN
-    ...    xpath=//input[@type="radio" and (@name="${label}" or @value="${label}" or @data-qa="${label}" or @id="${label}")]
+    ...    xpath=//input[@type="radio" and @name="${label}" and @value="${option}"]
