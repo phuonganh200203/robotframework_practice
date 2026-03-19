@@ -36,9 +36,5 @@ Radio By Label
 Combobox Select By Name
     [Arguments]    ${name}
     RETURN
-    ...    xpath=//select[@name="${name}"]
+    ...    xpath=//select[@data-qa="${name}" or @name="${name}" or @id="${name}"]
 
-Combobox Select Option By Text
-    [Arguments]    ${option}
-    RETURN
-    ...    xpath=//option[normalize-space()="${option}"]

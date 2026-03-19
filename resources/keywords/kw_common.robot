@@ -119,7 +119,24 @@ I verify the ${option} option under the ${radradio_name} checkbox is ${status} s
     ${locator}=    Radio By Label    ${radradio_name}    ${option}
     Wait For Elements State    ${locator}    ${status}
 
-I select ${option} from ${field_name}
-    ${locator}=    Combobox Select By Name    ${field_name}
+#combo box
+I select the ${option} option under the ${combobox_name} combobox
+    ${locator}=    Combobox Select By Name    ${combobox_name}
     Wait For Elements State    ${locator}    visible
     Select Options By    ${locator}    label    ${option}
+
+I verify the ${option} option under the ${combobox_name} combobox is selected
+    ${locator}=    Combobox Select By Name    ${combobox_name}
+    Wait For Elements State    ${locator}    visible
+    ${selected}=    Get Selected Options    ${locator}
+    Should Contain    ${selected}    ${option}
+
+I verify the ${option} option under the ${combobox_name} combobox is unselected
+    ${locator}=    Combobox Select By Name    ${combobox_name}
+    Wait For Elements State    ${locator}    visible
+    ${selected}=    Get Selected Options    ${locator}
+    Should Not Contain    ${selected}    ${option}
+
+I verify the ${combobox_name} combobox is ${status} status
+    ${locator}=    Combobox Select By Name    ${combobox_name}
+    Wait For Elements State    ${locator}    ${status}
