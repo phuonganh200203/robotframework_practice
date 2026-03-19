@@ -119,4 +119,7 @@ I verify the ${option} option under the ${radradio_name} checkbox is ${status} s
     ${locator}=    Radio By Label    ${radradio_name}    ${option}
     Wait For Elements State    ${locator}    ${status}
 
-
+I select ${option} from ${field_name}
+    ${locator}=    Combobox Select By Name    ${field_name}
+    Wait For Elements State    ${locator}    visible
+    Select Options By    ${locator}    label    ${option}

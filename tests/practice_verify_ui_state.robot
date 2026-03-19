@@ -11,7 +11,7 @@ Suite Teardown    Close Browser
 
 ${URL}        https://automationexercise.com/
 ${BROWSER}    chromium
-${EMAIL}      tesq21hbq1s@mail.com
+${EMAIL}      tesq212b3qqq1s@mail.com
 ${PASSWORD}   123456
 
 
@@ -41,6 +41,11 @@ Register New Account
     I select the Mrs option under the title radio button
 
     I input ${PASSWORD} into the password field
+
+    I select 20 from days
+    I select April from months
+    I select 2003 from years
+
     I input Test into the first_name field
     I input User into the last_name field
     I input 123 Street into the address1 field
@@ -48,6 +53,7 @@ Register New Account
     I input HCM into the city field
     I input 700000 into the zipcode field
     I input 0123456789 into the mobile_number field
+    I select United States from country
 
     I click the Create Account button
     I verify the Account Created text is visible status

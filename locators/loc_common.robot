@@ -9,7 +9,7 @@ Textbox By Label Or Placeholder
 Button By Text
     [Arguments]    ${text}
     RETURN
-    ...    xpath=(//button[normalize-space()="${text}"])
+    ...    xpath=//button[contains(normalize-space(), "${text}")]
 
 
 Link By Text
@@ -32,3 +32,13 @@ Radio By Label
     [Arguments]    ${label}    ${option}
     RETURN
     ...    xpath=//input[@type="radio" and @name="${label}" and @value="${option}"]
+
+Combobox Select By Name
+    [Arguments]    ${name}
+    RETURN
+    ...    xpath=//select[@name="${name}"]
+
+Combobox Select Option By Text
+    [Arguments]    ${option}
+    RETURN
+    ...    xpath=//option[normalize-space()="${option}"]
