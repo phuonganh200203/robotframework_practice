@@ -26,8 +26,8 @@ en:
         view: Views
         part: Parts
       car_type:
-        sedan: SEDAN
-        station_wagon: COMBI
+        sedan: LIMOUSINE
+        station_wagon: KOMBI
         hatchback: HATCHBACK
         suv: SUV
         small_car: SMALL CAR
@@ -38,80 +38,114 @@ en:
       show:
         description: |
           <ul>
-            <li>Please take photos of the damage.</li>
-            <li>Use the zones shown in the app as a guide.</li>
-            <li>You can add additional photos before submitting.</li>
+            <li>Please take a photo of your damage.</li>
+            <li>Use the zones listed in the app as an aid.</li>
+            <li>Feel free to add other photos of your choice before sending.</li>
+            <li>Alternatively, you also have the option of inserting photos from your gallery into the app.<br/><span class="show-pickup-photo-from-gallery-modal">For more information, click here</span></li>
           </ul>
       index_title: Please select your vehicle type
       index_sub_title: Select your vehicle type from the following category
-      show_title: Tap the fields to take photos
-      show_sub_title: ! ' '
+      show_title: Create photos
+      show_sub_title: Tap the fields to take photos
       vehicle_detail_title: Please select your vehicle details from the following category
       gallery: Gallery
       term_conditions:
-        title: Terms and Conditions
+        title: Geschäftsbedingungen
         content: |
-          <h1>Terms and Conditions</h1>
-          <p>Terms of Use for the "Photo App" program of the company&nbsp;%{claimant_name}</p>
-          <p><strong>Introduction&nbsp;</strong>To use this program, you must agree to these Terms of Use.</p>
-          <p><strong>&sect; 1</strong> Scope of Application Use of the "Photo App" program (hereinafter: "Program") offered by&nbsp;%{claimant_name},&nbsp;%{claimant_street}&nbsp;%{claimant_house_number},&nbsp;%{claimant_postcode}&nbsp;%{claimant_city}&nbsp;("Company") is permitted solely on the basis of these conditions. By clicking the link in the SMS sent to you, you accept the validity of these Terms of Use in their respective versions.</p>
-          <p><strong>&sect; 2</strong> Subject Matter of the Contract (1) The Program is launched via web services. (2) The Company is entitled to discontinue the operation of the Program in whole or in part at any time. Due to the nature of the Internet, mobile networks, and computer systems, the Company assumes no warranty for the uninterrupted availability or functionality of the Program. (3) These Terms of Use solely govern the use of the Program. (4) The Program enables you to take photos of the damage situation and upload them for the Company's claim file. For these purposes, the Company also processes personal data.</p>
-          <p><strong>&sect; 3</strong> Technical Requirements for Mobile Devices for Using the Program A prerequisite for using the Program is an existing internet connection. The amount of any costs incurred for usage depends on the relevant provisions of the user's mobile tariff. The use of an internet connection via a local wireless network (Wi-Fi) may incur costs.</p>
-          <p><strong>&sect; 4</strong> Access The Company is entitled to revoke access authorization at any time without giving reasons. This applies in particular if you have violated these terms or applicable law when using the Program. Access authorization expires upon the closing of the Photo App session or after the expiration of a specified period of time.</p>
-          <p><strong>&sect; 5</strong> Functionalities of the Program After successful activation, you can take photos using your mobile phone camera and transmit them directly into the claim file. For further claim processing, the transmitted photos and the geocoding of the damage location will be recorded.</p>
-          <p><strong>&sect; 6</strong> Your Duties When using the Program, you must not transmit content containing viruses, so-called Trojan horses, or other programming that could damage software.</p>
-          <p><strong>&sect; 7</strong> Duration of Use The term of this agreement on the use of the Program begins with your consent to these Terms of Use and ends with the termination of the Photo App session or after the expiration of a specified period of time. The right to extraordinary termination of this usage agreement for good cause remains unaffected.</p>
-          <p><strong>&sect; 8</strong> Other Liability and Damages (1) The Company is liable only in accordance with the following provisions in (a) to (c): (a) The Company shall be liable without limitation for damages caused intentionally or by gross negligence by the Company, its legal representatives, or vicarious agents. (b) The Company shall be liable without limitation for damages resulting from injury to life, body, or health caused intentionally or negligently by the Company, its legal representatives, or vicarious agents. (c) The Company shall be liable for damages resulting from the breach of cardinal obligations by the Company, its legal representatives, or vicarious agents; cardinal obligations are the material obligations that form the basis of the contract, which were decisive for the conclusion of the contract, and on the fulfillment of which the user was entitled to rely. If the Company has breached these cardinal obligations through slight negligence, its liability is limited to the amount that was foreseeable for the Company at the time of the respective service. (2) Any further liability of the Company is excluded on the merits. (3) The above regulation is not associated with a shift in the burden of proof to your disadvantage.</p>
-          <p><strong>&sect; 9 </strong>Notes on Data Processing 9.1 Type of Personal Data: The following data is stored by us: First name, last name, e-mail address or mobile number, claim number, as well as your GPS geocoding at the time the photo was taken. 9.2 Storage Location/Deletion of Data: The Company stores your personal data only as long as is necessary to achieve the purpose for which it was collected and providing there are no other legal or contractual requirements (such as retention periods) for longer storage. 9.3 Purpose-Bound Use: The Company will process the personal data provided by you solely for the purpose of claim processing. Should personal data be processed beyond the statutory processing possibilities, this will only be done with your express consent. Processing of personal data and its transmission to authorized state institutions and authorities only take place within the framework of relevant laws or if we are obliged to do so by a court decision. The Company's employees and the service companies commissioned by it are obliged to maintain confidentiality and to comply with European and national data protection standards. 9.4 Security: The Company has taken technical and organizational security measures to protect your personal data against loss, destruction, manipulation, and unauthorized access. All employees of the Company are obliged to comply with European and national data protection standards and to handle personal data confidentially. In the event of the collection and processing of personal data, the information is transmitted in SSL-encrypted form to prevent misuse of the data by third parties. The Company's security measures are continuously revised in accordance with technological developments. 9.5 Your Rights as a Data Subject: If personal data concerning you is processed, you are a data subject within the meaning of the GDPR and you have the following rights against the Company: a) Right of access (Art. 15 GDPR) b) Right to rectification (Art. 16 GDPR) c) Right to restriction of processing (Art. 18 GDPR) d) Right to erasure (Art. 17 GDPR) e) Right to notification (Art. 19 GDPR) f) Right to data portability (Art. 20 GDPR) g) Right to object (Art. 21 GDPR) h) Right to withdraw the data protection declaration of consent i) Right to lodge a complaint with a supervisory authority (Art. 77 GDPR). The data protection supervisory authority responsible for the Company is: Bayerisches Landesamt f&uuml;r Datenschutzaufsicht, Postfach 606, 91511 Ansbach. The supervisory authority with which the complaint has been lodged shall inform the complainant on the progress and the outcome of the complaint including the possibility of a judicial remedy pursuant to Art. 78 GDPR.</p>
-          <p><strong>&sect; 10</strong> Rights of Use Regarding the Captured Photos (1) The Company is entitled to delete the captured photos if this violates these Terms of Use or applicable law. (2) Insofar as copyright, ancillary copyright, trademark, personality, or other intellectual property rights exist in the captured photos, you grant the Company, at the time of their creation, all exclusive rights of use, unlimited in time, space, and content, for their unrestricted exploitation and use. (3) The Company is entitled to grant, assign, and/or encumber the rights acquired under this paragraph 2 to third parties in whole or in part, exclusively or non-exclusively, at its own discretion; in particular, passing them on to the Company's service providers is permitted. (4) The Company takes into account the legal requirements in Germany.</p>
-          <p><strong>&sect; 11</strong> Side Agreements, Place of Jurisdiction, Applicable Law (1) Side agreements must be in writing. (2) If you are a merchant within the meaning of the German Commercial Code (HGB), the exclusive place of jurisdiction is&nbsp;%{claimant_city}. (3) German law applies, excluding the UN Convention on Contracts for the International Sale of Goods (CISG).</p>
-          <p><strong data-path-to-node="21" data-index-in-node="0">Status: March 12, 2026</strong></p>
+          <p>AGB’s VORSCHADENDOKUMENATION</p>
+          <p>Nutzungsbedingungen zu dem Programm „Pictureapp“ der Generali Deutschland AG (Generali Deutschland AG, Adenauerring 7, 81737 München, Deutschland) Um dieses Programm nutzen zu können, müssen Sie diesen Nutzungsbedingungen zustimmen.</p>
+          <p class="block">§ 1 Anwendungsbereich</p>
+          <p>Eine Nutzung des von der Generali Deutschland AG (Generali Deutschland AG), ("Generali") angebotenen Programms „Pictureapp“, (im Folgenden: "Programm") ist ausschließlich aufgrund dieser Bedingungen zulässig. Mit Betätigung des Links in der Ihnen zugesandten SMS oder E-Mail wird die Geltung dieser Nutzungsbedingungen in ihrer jeweiligen Fassung akzeptiert.</p>
+          <p class="block">§ 2 Vertragsgegenstand</p>
+          <p>(1) Das Programm wird über WEB-Dienste gestartet.</p>
+          <p>(2) Generali ist berechtigt, jederzeit den Betrieb des Programms ganz oder teilweise einzustellen. Aufgrund der Beschaffenheit des Internets, der Mobilfunknetze und der Computersysteme übernimmt Generali keine Gewähr für die ununterbrochene Verfügbarkeit oder Funktionstauglichkeit des Programms.</p>
+          <p>(3) Diese Nutzungsbedingungen regeln einzig die Verwendung des Programms.</p>
+          <p>(4) Das Programm ermöglicht Ihnen die Durchführung der Bilderaufnahme und Bilderzusendung sowie eine Funktion zur Übersendung des aktuellen Status Ihres Falles zum Zwecke der Fallbearbeitung. Während der Nutzung können Sie Bilder über Ihr Smartphone oder Tablet neu aufnehmen oder über Ihre Galerie übertragen. Diese Bilder werden für Ihren Auftrag genutzt. Zu diesen Zwecken verarbeitet Generali auch personenbezogene Daten.</p>
+          <p class="block">§ 3 Technische Anforderungen an Mobilgeräte zur Nutzung des Programms</p>
+          <p>Voraussetzung zur Nutzung des Programms ist, dass eine Internetverbindung besteht. Die Höhe ggfs. für die Nutzung anfallender Kosten richtet sich nach den diesbezüglichen Bestimmungen des Mobilfunktarifs des Nutzers. Die Nutzung einer Internetverbindung über ein örtliches Funknetzwerk kann kostenpflichtig sein.</p>
+          <p class="block">§ 4 Zugang</p>
+          <p>(1) Generali ist jederzeit berechtigt, die Zugangsberechtigung zu widerrufen, ohne dass es der Angabe von Gründen bedarf. Dies gilt insbesondere, wenn Sie gegen diese Bedingungen oder gegen anwendbares Recht bei Nutzung des Programms verstoßen haben.</p>
+          <p>(2) Die Zugangsberechtigung erlischt mit Beendigung des Programms.</p>
+          <p class="block">§ 5 Funktionalitäten des Programms</p>
+          <p>Nach erfolgter Aktivierung des Programms können Sie mittels Ihrer Smartphone- Kamera den aktuellen Zustand Ihres Fahrzeuges präsentieren, ermöglicht durch die Bilderaufnahme und Bilderzusendung sowie einer Funktion zur Übersendung des aktuellen Status Ihres Falles zum Zwecke der Fallbearbeitung. Während der Nutzung können Sie Bilder über Ihr Smartphone oder Tablet neu aufnehmen oder über Ihre Galerie übertragen. Diese Bilder werden für Ihren Auftrag genutzt. Zu diesen Zwecken verarbeitet Generali auch personenbezogene Daten.</p>
+          <p class="block">§ 6 Ihre Pflichten</p>
+          <p>Sie dürfen bei Nutzung des Programms nicht Inhalte mit Viren, sog. Trojanischen Pferden oder sonstige Programmierungen, die Software beschädigen können, übermitteln.</p>
+          <p class="block">§ 7 Nutzungsdauer</p>
+          <p>(1) Die Laufzeit dieser Vereinbarung über die Nutzung des Programms beginnt mit Zustimmung zu diesen Nutzungsbedingungen und endet mit der Beendigung des Programms.</p>
+          <p>(2) Das Recht zur außerordentlichen Kündigung dieser Nutzungsvereinbarung aus wichtigem Grund bleibt unberührt.</p>
+          <p class="block">§ 8 Sonstige Haftung und Schadenersatz</p>
+          <p>(1) Generali haftet nur nach Maßgabe der folgenden Bestimmungen in (a) bis (c):</p>
+          <p>(a) Generali haftet unbeschränkt für vorsätzlich oder grob fahrlässig durch Generali, ihre gesetzlichen Vertreter oder Erfüllungsgehilfen verursachten Schäden.</p>
+          <p>(b) Generali haftet unbeschränkt für vorsätzlich oder fahrlässig verursachte Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit durch die Generali, ihre gesetzlichen Vertreter oder Erfüllungsgehilfen.</p>
+          <p>(c) Generali haftet für Schäden aus der Verletzung von Kardinalpflichten durch Generali, ihre gesetzlichen Vertreter oder Erfüllungsgehilfen; Kardinalpflichten sind die wesentlichen Pflichten, die die Grundlage des Vertrags bilden, die entscheidend für den Abschluss des Vertrags waren und auf deren Erfüllung der Nutzer vertrauen durfte. Wenn Generali diese Kardinalpflichten leicht fahrlässig verletzt hat, ist ihre Haftung auf den Betrag begrenzt, der für Generali zum Zeitpunkt der jeweiligen Leistung vorhersehbar war.</p>
+          <p>(2) Eine weitere Haftung von Generali ist dem Grunde nach ausgeschlossen.</p>
+          <p>(3) Eine Änderung der Beweislast zu Ihrem Nachteil ist mit der vorstehenden Regelung nicht verbunden.</p>
+          <p class="block">§ 9 Hinweise zur Datenverarbeitung</p>
+          <p>9.1 Art der persönlichen Daten Folgende Daten werden von Generali gespeichert: Antragsnummer, Nachname, Vorname, Mail, Telefonnummer mobil, FIN Nummer, Automodell, Baujahr, Automarke, Leistung, Einheit (KW/PS) sowie Ihre GPS-Geokodierung zum Zeitpunkt der Verwendung des Programms.</p>
+          <p>9.2 Speicherort/Löschung der Daten Generali speichert Ihre personenbezogenen Daten nur so lange, wie sie zum Erreichen des Zwecks, für den sie erhoben wurden, erforderlich sind und keine sonstigen gesetzlichen oder vertraglichen Erfordernisse (wie z.B. Aufbewahrungsfristen) für eine längere Speicherung bestehen.</p>
+          <p>9.3 Zweckgebundene Verwendung Generali wird die von Ihnen zur Verfügung gestellten personenbezogenen Daten nur für zum Zwecke der Fallbearbeitung verarbeiten. Sollten personenbezogene Daten über die gesetzlichen Verarbeitungsmöglichkeiten hinaus verarbeitet werden, wird dies nur mit Ihrer ausdrücklichen Einwilligung erfolgen. Verarbeitungen von personenbezogenen Daten sowie deren Übermittlung an auskunftsberechtigte staatliche Institutionen und Behörden erfolgen nur im Rahmen der einschlägigen Gesetze bzw. sofern wir durch eine gerichtliche Entscheidung dazu verpflichtet sind. Die MitarbeiterInnen von Generali und die von diesem beauftragten Dienstleistungsunternehmen sind zur Verschwiegenheit und zur Einhaltung des europäischen sowie nationalen Datenschutzstandards verpflichtet.</p>
+          <p>9.4. Sicherheit Generali hat technische und organisatorische Sicherheitsmaßnahmen getroffen, um Ihre personenbezogenen Daten vor Verlust, Zerstörung, Manipulation und unberechtigten Zugriff zu schützen. Alle MitarbeiterInnen von Generali sind auf die Einhaltung des europäischen sowie nationalen Datenschutzstandards und den vertraulichen Umgang mit personenbezogenen Daten verpflichtet. Im Falle der Erhebung und Verarbeitung persönlicher Daten werden die Informationen in SSL-verschlüsselter Form übertragen, um einem Missbrauch der Daten durch Dritte vorzubeugen. Die Sicherungsmaßnahmen von Generali werden entsprechend der technologischen Entwicklung fortlaufend überarbeitet.</p>
+          <p>9.5 Ihre Rechte als Betroffener Werden personenbezogene Daten von Ihnen verarbeitet, sind Sie Betroffener i.S.d. DSGVO und es stehen Ihnen folgende Rechte gegenüber der Generali zu:</p>
+          <p>a) Auskunftsrecht Sie können gegenüber Generali jederzeit Ihr Auskunftsrecht nach Art. 15 DSGVO wahrnehmen, ob und welche Sie betreffende personenbezogene Daten durch Generali verarbeitet werden.</p>
+          <p>b) Recht auf Berichtigung Sie können gegenüber Generali jederzeit Ihr Berichtigungsrecht nach Art. 16 DSGVO wahrnehmen, und die Berichtigung Sie betreffender unrichtiger personenbezogener Daten verlangen.</p>
+          <p>c) Recht auf Einschränkung der Verarbeitung Sie können gegenüber Generali jederzeit Ihr Recht auf Einschränkung der Verarbeitung nach Art. 18 DSGVO wahrnehmen, und die Einschränkung der Verarbeitung zu verlangen, sofern die gesetzlichen Voraussetzungen hierfür vorliegen.</p>
+          <p>d) Recht auf Löschung Sie können gegenüber Generali jederzeit Ihr Löschungsrecht nach Art. 17 DSGVO wahrnehmen, und verlangen, dass Sie betreffende personenbezogene Daten unverzüglich gelöscht werden, wenn diese Daten für die Zwecke, für die sie erhoben oder auf sonstige Weise verarbeitet wurden, nicht mehr notwendig sind. Dies gilt nicht, soweit die Generali steuer- und handelsrechtlichen Vorschriften über die Speicherung von derartigen Daten unterliegen. Die Daten werden dann nicht gelöscht, jedoch nur noch für die Zwecke der Speicherung aufbewahrt.</p>
+          <p>e) Recht auf Unterrichtung Sie können gegenüber Generali jederzeit Ihr Recht auf Unterrichtung nach Art. 19 DSGVO wahrnehmen. Haben Sie ein Recht auf Berichtigung, Löschung oder Einschränkung der Verarbeitung gegenüber Generali geltend gemacht, ist Generali verpflichtet, allen Empfängern, denen die Sie betreffenden personenbezogenen Daten offengelegt wurden, diese Berichtigung oder Löschung der Daten oder Einschränkung der Verarbeitung mitzuteilen, es sei denn, dies erweist sich als unmöglich oder ist mit einem unverhältnismäßigen Aufwand verbunden. Ihnen steht das Recht zu, über diese Empfänger unterrichtet zu werden.</p>
+          <p>f) Recht auf Datenübertragbarkeit Sie können gegenüber Generali jederzeit Ihr Recht auf Datenübertragbarkeit gemäß Art. 20 DSGVO wahrnehmen. Sie haben das Recht, Ihre personenbezogenen Daten, die Sie der Generali bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen, soweit dies technisch machbar ist.</p>
+          <p>g) Widerspruchsrecht Sie haben das Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten, die aufgrund von Art. 6 Abs. 1 lit. e oder f DSGVO erfolgt, Widerspruch einzulegen; dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling. Generali verarbeitet die Sie betreffenden personenbezogenen Daten nicht mehr, es sei denn, sie kann zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.</p>
+          <p>h) Recht auf Beschwerde bei einer Aufsichtsbehörde Sind Sie der Ansicht, dass wir Ihre Daten in nicht zulässiger Weise verwenden, so steht Ihnen das Recht auf Beschwerdeerhebung bei der Deutschland Datenschutzbehörde, Barichgasse 40-42, 1030 Wien, zu.</p>
+          <p class="block">§ 10 Nutzungsrechte an den aufgenommenen Fotos</p>
+          <p>(1) Generali ist berechtigt die aufgenommenen Fotos zu löschen, wenn hierdurch gegen diese Nutzungsbedingungen oder gegen geltendes Recht verstoßen wird.</p>
+          <p>(2) Soweit Urheber- , Leistungsschutz-, Marken-, Persönlichkeits- oder sonstige Schutzrechte an den aufgenommenen Fotos bestehen, räumen Sie Generali zum Zeitpunkt ihres Entstehens sämtliche, zeitlich, räumlich und inhaltlich unbeschränkten Nutzungsrechte zu deren unbeschränkten Verwertung und Nutzung ein.</p>
+          <p>(3) Generali ist berechtigt, die nach diesem Absatz 2 erworbenen Rechte Dritten nach freiem Ermessen vollständig oder teilweise, exklusiv oder nicht-exklusiv einzuräumen, abzutreten und/oder sie zu belasten, insbesondere ist eine Weitergabe an die Dienstleister der Generali zulässig.</p>
+          <p>(4) Generali berücksichtigt die rechtlichen Anforderungen in Deutschland.</p>
+          <p class="block">§ 11 Nebenabreden, Gerichtsstand, anwendbares Recht</p>
+          <p>(1) Nebenabreden bedürfen der Schriftform.</p>
+          <p>(2) Es gilt Deutschland Recht unter Ausschluss des UN-Kaufrechts. Für alle Streitigkeiten ist ausschließlicher Gerichtsstand das sachlich zuständige Gericht in München. Stand: 29.07.2020</p>
       privacy:
-        title: Information on the Use of Your Data
+        title: Information zur Verwendung Ihrer Daten
         content: |
-          <div><strong>Information on the Use of Your Data</strong></div>
+          <div><strong>Information zur Verwendung Ihrer Daten</strong></div>
           <br/>
-          <div><strong>Controller Responsible for Data Processing</strong></div>
-          <div>ABC Company</div>
-          <div>Street A 20</div>
-          <div>00110 City</div>
-          <div>country</div>
-          <div>Phone: 0800 000 000</div>
-          <div>Email: info@ABC.company</div>
+          <div><strong>Verantwortlicher für die Datenverarbeitung</strong></div>
+          <div>AXA Versicherung AG und AXA easy Versicherung AG</div>
+          <div>Colonia-Allee 10-20</div>
+          <div>51067 Köln</div>
+          <div>Telefon: 0800 3203205</div>
+          <div>E-Mail-Adresse: info@axa.de</div>
           <br/>
-          <div><strong>Contact Details of the Data Protection Officer</strong></div>
-          <div>You can reach our Data Protection Officer by post at the address above, adding “Data Protection Officer” to the address, or by email at data@ABC.company.</div>
+          <div><strong>Kontaktdaten des Datenschutzbeauftragten:</strong></div>
+          <div>Unseren Datenschutzbeauftragten erreichen Sie per Post unter der o.g. Anschrift mit dem Zusatz – Datenschutzbeauftragter – oder per E-Mail unter datenschutz@axa.de.</div>
           <br/>
-          <div><strong>Legal Bases and Purposes of Processing</strong></div>
-          <div>To enable you to use the video inspection/photo app, we collect your personal data (first and last name, email address, mobile phone number, claim number, images of the vehicle registration document and the vehicle, vehicle identification number (VIN), and license plate number).</div>
+          <div><strong>Rechtsgrundlagen und Verwendungszwecke</strong></div>
+          <div>Um Ihnen die Nutzung der Videobesichtigung/Foto App zu ermöglichen, erheben wir Ihre personenbezogenen Daten (Vor- und Nachname, E-Mail-Adresse, Mobilfunknummer, Schadennummer, Bilder vom Fahrzeugschein und Fahrzeug, Fahrzeug-Identifikationsnummer, Kennzeichen).</div>
           <br/>
-          <div>Pursuant to Art. 6(1)(a) of the General Data Protection Regulation (GDPR), we are permitted to process your personal data if you, as the data subject, have given your consent. You have the right to withdraw your consent at any time with effect for the future. Withdrawal does not affect the lawfulness of processing carried out on the basis of your consent up to that point. Please send your withdrawal to the address stated above. If you withdraw your consent, continued use of the app is unfortunately not possible.</div>
+          <div>Gemäß Art. 6 UAbs. 1 lit. a) Datenschutz-Grundverordnung (DSGVO) sind wir Verarbeitung Ihrer personenbezogenen Daten berechtigt, wenn Sie als betroffene Person in die Datenverarbeitung eingewilligt haben. Sie haben das Recht, Ihre Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen. Durch den Widerruf wird die Rechtmäßigkeit der bis dahin auf Grundlage der Einwilligung erfolgten Verarbeitung nicht berührt. Ihren Widerruf richten Sie bitte an die oben angegebene Adresse. Im Falle des Widerrufs Ihrer Einwilligung ist die weitere Nutzung der App leider nicht möglich.</div>
           <br/>
-          <div>Your data is generally used solely for the purpose of handling your claim. In addition, we may process your data to create internal analyses and statistics; however, the analysis results and statistics contain only anonymized data. The legal basis for this is Art. 6(1)(f) GDPR. We also process your personal data to comply with legal obligations, such as regulatory requirements and commercial and tax retention obligations. The legal basis in this case is the applicable statutory provision in conjunction with Art. 6(1)(c) GDPR.</div>
-          <div>If, in the course of handling a case, you provide us with your email address, we will store it and may use it for further communication regarding the relevant policy or claim, unless you object to such use.</div>
+          <div>Ihre Daten werden grundsätzlich nur zum Zweck der Schadenbearbeitung genutzt. Darüber hinaus kann es vorkommen, dass wir Ihre Daten zur Erstellung interner Analysen und Statistiken verarbeiten, wobei das Analyseergebnis und die Statistik selbst nur anonymisierte Daten beinhaltet. Rechtsgrundlage ist insoweit Art. 6 UAbs. 1 1 lit. f) DSGVO. Zudem verarbeiten wir Ihre personenbezogenen Daten zur Erfüllung gesetzlicher Verpflichtungen wie z. B. behördlicher Vorgaben sowie handels- und steuerrechtlicher Aufbewahrungspflichten. Rechtsgrundlage für die Verarbeitung ist in diesem Fall die jeweilige gesetzliche Regelung i. V. m. Art. 6 UAbs. 1 lit. c) DSGVO.</div>
+          <div>Wenn Sie uns im Rahmen der Bearbeitung eines Vorgangs Ihre E-Mail- Adresse zur Kenntnis bringen, speichern wir diese und nutzen sie ggf. für die weitere Kommunikation zu dem betreffenden Vertrag oder Schaden, sofern Sie dieser Nutzung nicht widersprechen.</div>
           <br/>
-          <div><strong>Recipients and Categories of Recipients</strong></div>
-          <div>Your data will only be transferred to third parties to the extent necessary to achieve the stated purposes. This includes, in particular, the company</div>
-          <div><strong>MotionsCloud GmbH</strong></div>
-          <div>as well as its sub-processors and the experts appointed to assess the claim.</div>
-          <div>Furthermore, for the purpose of claim handling, your data will be processed by ABC company and companies affiliated with them. Further information can be found at www.abc.company.</div>
+          <div><strong>Empfänger und Kategorien von Empfängern</strong></div>
+          <div>Ihre Daten werden nur an Dritte übermittelt, soweit dies zur Zweckerreichung erforderlich ist. Dabei handelt es sich insbesondere um das Unternehmen</div>
+          <div><strong>MotionsCloud GmbH Atelierstr. 29 81671 München</strong></div>
+          <div>und dessen Subdienstleister sowie die mit der Begutachtung des Schadens beauftragten Gutachter.</div>
+          <div>Des Weiteren werden Ihre Daten zum Zwecke der Schadensbearbeitung durch die AXA Versicherung AG bzw. die AXA easy Versicherung AG und die mit ihr verbundenen Unternehmen verarbeitet. Weitere Informationen hierzu finden Sie unter www.axa.de/datenschutz.</div>
           <br/>
-          <div><strong>Duration of Processing and Deletion</strong></div>
-          <div>We delete your personal data as soon as it is no longer required for the purposes stated above. In some cases, personal data may be retained for the period during which claims can be asserted against our company (statutory limitation periods). In addition, we store your personal data for as long as we are legally obliged to do so. This follows from statutory documentation and retention obligations, including those set out in the German Commercial Code (HGB), the Fiscal Code (AO), and the Money Laundering Act (GwG). Retention periods can be up to ten years.</div>
+          <div><strong>Dauer der Datenverarbeitung und Löschung</strong></div>
+          <div>Wir löschen Ihre personenbezogenen Daten, sobald sie für die oben genannten Zwecke nicht mehr erforderlich sind. Dabei kann es vorkommen, dass personenbezogene Daten für die Zeit aufbewahrt werden, in der Ansprüche gegen unser Unternehmen geltend gemacht werden können (gesetzliche Verjährungsfrist). Zudem speichern wir Ihre personenbezogenen Daten, solange wir dazu gesetzlich verpflichtet sind. Dies ergibt sich aus gesetzlichen Nachweis- und Aufbewahrungspflichten, die unter anderem im Handelsgesetzbuch, der Abgabenordnung und dem Geldwäschegesetz geregelt sind. Die Speicherfristen betragen danach bis zu zehn Jahre.</div>
           <br/>
-          <div><strong>Your Rights as a Data Subject</strong></div>
-          <div>You may request information from the address stated above about the data stored about you. In addition, under certain conditions, you may request the correction or deletion of your data. You may also have the right to restriction of processing and the right to receive the data you provided in a structured, commonly used, and machine-readable format.</div>
+          <div><strong>Ihre Rechte als betroffene Person</strong></div>
+          <div>Sie können unter der o. g. Adresse Auskunft über die zu Ihrer Person gespeicherten Daten verlangen. Darüber hinaus können Sie unter bestimmten Voraussetzungen die Berichtigung oder die Löschung Ihrer Daten verlangen. Ihnen kann weiterhin ein Recht auf Einschränkung der Verarbeitung Ihrer Daten sowie ein Recht auf Herausgabe der von Ihnen bereitgestellten Daten in einem strukturierten, gängigen und maschinenlesbaren Format zustehen.</div>
           <br/>
-          <div>If we process your data on the basis of our legitimate interests (Art. 6(1)(f) GDPR), you may object to this processing if there are reasons arising from your particular situation that speak against the processing. Please send your objection, stating your reasons, to datenschutz@axa.de.</div>
+          <div>Verarbeiten wir Ihre Daten auf Grundlage unserer berechtigten Interessen (Art. 6 UAbs. 1 lit. f) DSGVO), können Sie dieser Verarbeitung widersprechen, wenn sich aus Ihrer besonderen Situation Gründe ergeben, die gegen die Datenverarbeitung sprechen. Ihren Widerspruch richten Sie bitte unter Angabe der Gründe an datenschutz@axa.de.</div>
           <br/>
-          <div><strong>Right to Lodge a Complaint</strong></div>
-          <div>You have the right to lodge a complaint with the Data Protection Officer named above or with a data protection supervisory authority.</div>
-          <div>The supervisory authority responsible for us is:</div>
+          <div><strong>Beschwerderecht</strong></div>
+          <div>Sie haben das Recht, sich mit einer Beschwerde an den oben genannten Datenschutzbeauftragten oder an eine Datenschutzaufsichtsbehörde zu wenden.</div>
+          <div>Die für uns zuständige Datenschutzaufsichtsbehörde ist</div>
           <br/>
-          <div>State Commissioner for Data Protection and Freedom of Information of City</div>
-          <div>Street name 1</div>
-          <div>00100 city</div>
-          <div>Country</div>
+          <div>Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen</div>
+          <div>Kavalleriestraße 2 -4</div>
+          <div>40213 Düsseldorf</div>
     ar_photos:
       see_instruction: Details can be found here
       vin_number: VIN number
@@ -128,7 +162,7 @@ en:
       front_left_view: front-left<br/>side view
       front_right_view: front-right<br/>side view
       front_side: Front side
-      front_side_grilled: Grille
+      front_side_grilled: Grilled
       front_side_hood: hood
       front_side_left_bumper: Left bumper
       front_side_left_head_light: Left head light
@@ -203,21 +237,21 @@ en:
       ar_document: AR Documents
       ar_photo_terms_and_conditions: "I agree to the <a data-toggle='modal' data-target='#show-term-condition'>terms and conditions</a>"
     welcome_modal:
-      title: Tips for taking the best photos
-      content_1: Make sure your car is clean and dry.
-      content_2: "Use good lighting conditions:<br/>Daylight, no flash, and avoid direct sunlight."
+      title: Our tips for an optimal photo result
+      content_1: Your car should be clean and dry
+      content_2: "Pay attention to good lighting conditions: <br/> Daylight, no flash and take photos without direct sunlight - nothing can go wrong this way"
     help_modal:
       vin_number_title: "What does VIN number mean and where can I find it?"
       vin_number_content_1: The vehicle identification number is a unique code that is assigned to each vehicle during manufacture. The VIN number is a 17-digit combination of letters and numbers.
       vin_number_content_2: "The VIN number can be found in the following places, depending on the vehicle:"
-      vin_number_content_3: 
-      vin_number_content_4: 
-      vin_number_content_5: 1. Windshield (left side, in the direction of travel)
-      vin_number_content_6: 2. Door frames (left and right)
-      vin_number_content_7: 3. Engine compartment
+      vin_number_content_3: In the admission
+      vin_number_content_4: as well as on the vehicle
+      vin_number_content_5: 1. on the windshield on the left in the direction of travel
+      vin_number_content_6: 2. on the left and right door frames
+      vin_number_content_7: 3. In the engine compartment
       vehicle_registration_title: "Please take a photo of your vehicle registration as shown"
     thank_you:
-      content_1: Thank you for taking the time to capture photos of the damage.
-      content_2: This helps speed up the process and supports our assessment.
-      content_3: "If you have any questions, please contact us at 0152 1122 122 (ext. 789)."
-      content_4: Kind regards,, MC team
+      content_1: Thank you for taking the time to use our photo app.
+      content_2: This helps us a lot to hear your damage quickly.
+      content_3: "If you have any questions, we will be happy to help. Your contact person is:"
+      content_4: Sincerely, Your Generali Deutschland AG
