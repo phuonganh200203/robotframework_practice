@@ -1,223 +1,388 @@
 en:
-  displayable: Show
-  displayable_ar_photo_car_view: "Show"
-  displayable_ar_photo_car_part: "Show (outline)"
-  upload_document: Upload document
-  upload_documents: Upload documents
-  documents_required: Documents required
-  documents_uploaded: Documents uploaded
-  select_document_to_upload: Select document to upload
-  upload: Upload
-  capture: Capture
-  capture_from_camera: Capture from camera
-  upload_from_gallery: Upload from gallery
-  custom_document_type:
-    ar_photo_car_type: Car Type
-    ar_photo_car_view: Car View Detail
-    ar_photo_car_part: Car Part Detail
-    ar_photo_welcome_modal: Welcome Modal
-    ar_photo_help_modal: Help Modal
-    ar_photo_thank_you: Thank You
-    ar_photo_8_car_views_detail: 8 Car Views Detail
-    additional_ai_cart_part: Additional AI Car Part
-  enumerize:
-    photo:
-      category:
-        view: Views
-        part: Parts
-      car_type:
-        sedan: SEDAN
-        station_wagon: COMBI
-        hatchback: HATCHBACK
-        suv: SUV
-        small_car: SMALL CAR
-        van: VAN
-        pickup_truck: PICKUP
-  mobile:
-    ar_photo:
-      show:
-        description: |
-          <ul>
-            <li>Please take photos of the damage.</li>
-            <li>Use the zones shown in the app as a guide.</li>
-            <li>You can add additional photos before submitting.</li>
-          </ul>
-      index_title: Please select your vehicle type
-      index_sub_title: Select your vehicle type from the following category
-      show_title: Tap the fields to take photos
-      show_sub_title: ! " "
-      vehicle_detail_title: Please select your vehicle details from the following category
-      gallery: Gallery
-      term_conditions:
-        title: Terms and Conditions
-        content: |
-          <h1>Terms and Conditions</h1>
-          <p>Terms of Use for the "Photo App" program of the company&nbsp;%{claimant_name}</p>
-          <p><strong>Introduction&nbsp;</strong>To use this program, you must agree to these Terms of Use.</p>
-          <p><strong>&sect; 1</strong> Scope of Application Use of the "Photo App" program (hereinafter: "Program") offered by&nbsp;%{claimant_name},&nbsp;%{claimant_street}&nbsp;%{claimant_house_number},&nbsp;%{claimant_postcode}&nbsp;%{claimant_city}&nbsp;("Company") is permitted solely on the basis of these conditions. By clicking the link in the SMS sent to you, you accept the validity of these Terms of Use in their respective versions.</p>
-          <p><strong>&sect; 2</strong> Subject Matter of the Contract (1) The Program is launched via web services. (2) The Company is entitled to discontinue the operation of the Program in whole or in part at any time. Due to the nature of the Internet, mobile networks, and computer systems, the Company assumes no warranty for the uninterrupted availability or functionality of the Program. (3) These Terms of Use solely govern the use of the Program. (4) The Program enables you to take photos of the damage situation and upload them for the Company's claim file. For these purposes, the Company also processes personal data.</p>
-          <p><strong>&sect; 3</strong> Technical Requirements for Mobile Devices for Using the Program A prerequisite for using the Program is an existing internet connection. The amount of any costs incurred for usage depends on the relevant provisions of the user's mobile tariff. The use of an internet connection via a local wireless network (Wi-Fi) may incur costs.</p>
-          <p><strong>&sect; 4</strong> Access The Company is entitled to revoke access authorization at any time without giving reasons. This applies in particular if you have violated these terms or applicable law when using the Program. Access authorization expires upon the closing of the Photo App session or after the expiration of a specified period of time.</p>
-          <p><strong>&sect; 5</strong> Functionalities of the Program After successful activation, you can take photos using your mobile phone camera and transmit them directly into the claim file. For further claim processing, the transmitted photos and the geocoding of the damage location will be recorded.</p>
-          <p><strong>&sect; 6</strong> Your Duties When using the Program, you must not transmit content containing viruses, so-called Trojan horses, or other programming that could damage software.</p>
-          <p><strong>&sect; 7</strong> Duration of Use The term of this agreement on the use of the Program begins with your consent to these Terms of Use and ends with the termination of the Photo App session or after the expiration of a specified period of time. The right to extraordinary termination of this usage agreement for good cause remains unaffected.</p>
-          <p><strong>&sect; 8</strong> Other Liability and Damages (1) The Company is liable only in accordance with the following provisions in (a) to (c): (a) The Company shall be liable without limitation for damages caused intentionally or by gross negligence by the Company, its legal representatives, or vicarious agents. (b) The Company shall be liable without limitation for damages resulting from injury to life, body, or health caused intentionally or negligently by the Company, its legal representatives, or vicarious agents. (c) The Company shall be liable for damages resulting from the breach of cardinal obligations by the Company, its legal representatives, or vicarious agents; cardinal obligations are the material obligations that form the basis of the contract, which were decisive for the conclusion of the contract, and on the fulfillment of which the user was entitled to rely. If the Company has breached these cardinal obligations through slight negligence, its liability is limited to the amount that was foreseeable for the Company at the time of the respective service. (2) Any further liability of the Company is excluded on the merits. (3) The above regulation is not associated with a shift in the burden of proof to your disadvantage.</p>
-          <p><strong>&sect; 9 </strong>Notes on Data Processing 9.1 Type of Personal Data: The following data is stored by us: First name, last name, e-mail address or mobile number, claim number, as well as your GPS geocoding at the time the photo was taken. 9.2 Storage Location/Deletion of Data: The Company stores your personal data only as long as is necessary to achieve the purpose for which it was collected and providing there are no other legal or contractual requirements (such as retention periods) for longer storage. 9.3 Purpose-Bound Use: The Company will process the personal data provided by you solely for the purpose of claim processing. Should personal data be processed beyond the statutory processing possibilities, this will only be done with your express consent. Processing of personal data and its transmission to authorized state institutions and authorities only take place within the framework of relevant laws or if we are obliged to do so by a court decision. The Company's employees and the service companies commissioned by it are obliged to maintain confidentiality and to comply with European and national data protection standards. 9.4 Security: The Company has taken technical and organizational security measures to protect your personal data against loss, destruction, manipulation, and unauthorized access. All employees of the Company are obliged to comply with European and national data protection standards and to handle personal data confidentially. In the event of the collection and processing of personal data, the information is transmitted in SSL-encrypted form to prevent misuse of the data by third parties. The Company's security measures are continuously revised in accordance with technological developments. 9.5 Your Rights as a Data Subject: If personal data concerning you is processed, you are a data subject within the meaning of the GDPR and you have the following rights against the Company: a) Right of access (Art. 15 GDPR) b) Right to rectification (Art. 16 GDPR) c) Right to restriction of processing (Art. 18 GDPR) d) Right to erasure (Art. 17 GDPR) e) Right to notification (Art. 19 GDPR) f) Right to data portability (Art. 20 GDPR) g) Right to object (Art. 21 GDPR) h) Right to withdraw the data protection declaration of consent i) Right to lodge a complaint with a supervisory authority (Art. 77 GDPR). The data protection supervisory authority responsible for the Company is: Bayerisches Landesamt f&uuml;r Datenschutzaufsicht, Postfach 606, 91511 Ansbach. The supervisory authority with which the complaint has been lodged shall inform the complainant on the progress and the outcome of the complaint including the possibility of a judicial remedy pursuant to Art. 78 GDPR.</p>
-          <p><strong>&sect; 10</strong> Rights of Use Regarding the Captured Photos (1) The Company is entitled to delete the captured photos if this violates these Terms of Use or applicable law. (2) Insofar as copyright, ancillary copyright, trademark, personality, or other intellectual property rights exist in the captured photos, you grant the Company, at the time of their creation, all exclusive rights of use, unlimited in time, space, and content, for their unrestricted exploitation and use. (3) The Company is entitled to grant, assign, and/or encumber the rights acquired under this paragraph 2 to third parties in whole or in part, exclusively or non-exclusively, at its own discretion; in particular, passing them on to the Company's service providers is permitted. (4) The Company takes into account the legal requirements in Germany.</p>
-          <p><strong>&sect; 11</strong> Side Agreements, Place of Jurisdiction, Applicable Law (1) Side agreements must be in writing. (2) If you are a merchant within the meaning of the German Commercial Code (HGB), the exclusive place of jurisdiction is&nbsp;%{claimant_city}. (3) German law applies, excluding the UN Convention on Contracts for the International Sale of Goods (CISG).</p>
-          <p><strong data-path-to-node="21" data-index-in-node="0">Status: March 12, 2026</strong></p>
-      privacy:
-        title: Information on the Use of Your Data
-        content: |
-          <div><strong>Information on the Use of Your Data</strong></div>
-          <br/>
-          <div><strong>Controller Responsible for Data Processing</strong></div>
-          <div>ABC Company</div>
-          <div>Street A 20</div>
-          <div>00110 City</div>
-          <div>country</div>
-          <div>Phone: 0800 000 000</div>
-          <div>Email: info@ABC.company</div>
-          <br/>
-          <div><strong>Contact Details of the Data Protection Officer</strong></div>
-          <div>You can reach our Data Protection Officer by post at the address above, adding “Data Protection Officer” to the address, or by email at data@ABC.company.</div>
-          <br/>
-          <div><strong>Legal Bases and Purposes of Processing</strong></div>
-          <div>To enable you to use the video inspection/photo app, we collect your personal data (first and last name, email address, mobile phone number, claim number, images of the vehicle registration document and the vehicle, vehicle identification number (VIN), and license plate number).</div>
-          <br/>
-          <div>Pursuant to Art. 6(1)(a) of the General Data Protection Regulation (GDPR), we are permitted to process your personal data if you, as the data subject, have given your consent. You have the right to withdraw your consent at any time with effect for the future. Withdrawal does not affect the lawfulness of processing carried out on the basis of your consent up to that point. Please send your withdrawal to the address stated above. If you withdraw your consent, continued use of the app is unfortunately not possible.</div>
-          <br/>
-          <div>Your data is generally used solely for the purpose of handling your claim. In addition, we may process your data to create internal analyses and statistics; however, the analysis results and statistics contain only anonymized data. The legal basis for this is Art. 6(1)(f) GDPR. We also process your personal data to comply with legal obligations, such as regulatory requirements and commercial and tax retention obligations. The legal basis in this case is the applicable statutory provision in conjunction with Art. 6(1)(c) GDPR.</div>
-          <div>If, in the course of handling a case, you provide us with your email address, we will store it and may use it for further communication regarding the relevant policy or claim, unless you object to such use.</div>
-          <br/>
-          <div><strong>Recipients and Categories of Recipients</strong></div>
-          <div>Your data will only be transferred to third parties to the extent necessary to achieve the stated purposes. This includes, in particular, the company</div>
-          <div><strong>MotionsCloud GmbH</strong></div>
-          <div>as well as its sub-processors and the experts appointed to assess the claim.</div>
-          <div>Furthermore, for the purpose of claim handling, your data will be processed by ABC company and companies affiliated with them. Further information can be found at www.abc.company.</div>
-          <br/>
-          <div><strong>Duration of Processing and Deletion</strong></div>
-          <div>We delete your personal data as soon as it is no longer required for the purposes stated above. In some cases, personal data may be retained for the period during which claims can be asserted against our company (statutory limitation periods). In addition, we store your personal data for as long as we are legally obliged to do so. This follows from statutory documentation and retention obligations, including those set out in the German Commercial Code (HGB), the Fiscal Code (AO), and the Money Laundering Act (GwG). Retention periods can be up to ten years.</div>
-          <br/>
-          <div><strong>Your Rights as a Data Subject</strong></div>
-          <div>You may request information from the address stated above about the data stored about you. In addition, under certain conditions, you may request the correction or deletion of your data. You may also have the right to restriction of processing and the right to receive the data you provided in a structured, commonly used, and machine-readable format.</div>
-          <br/>
-          <div>If we process your data on the basis of our legitimate interests (Art. 6(1)(f) GDPR), you may object to this processing if there are reasons arising from your particular situation that speak against the processing. Please send your objection, stating your reasons, to datenschutz@axa.de.</div>
-          <br/>
-          <div><strong>Right to Lodge a Complaint</strong></div>
-          <div>You have the right to lodge a complaint with the Data Protection Officer named above or with a data protection supervisory authority.</div>
-          <div>The supervisory authority responsible for us is:</div>
-          <br/>
-          <div>State Commissioner for Data Protection and Freedom of Information of City</div>
-          <div>Street name 1</div>
-          <div>00100 city</div>
-          <div>Country</div>
-    ar_photos:
-      see_instruction: Details can be found here
-      vin_number: VIN number
-      mileage: mileage
-      vehicle_registration: vehicle registration
-      front_left: Front left
-      front: Front
-      front_right: Front right
-      left: Left
-      right: Right
-      back_left: Back left
-      back: Back
-      back_right: Back right
-      front_left_view: front-left<br/>side view
-      front_right_view: front-right<br/>side view
-      front_side: Front side
-      front_side_grilled: Grille
-      front_side_hood: hood
-      front_side_left_bumper: Left bumper
-      front_side_left_head_light: Left head light
-      front_side_right_bumper: Right bumper
-      front_side_right_head_light: right head light
-      front_side_windshield: Windshield
-      i_agree_to_the: I agree to the <span class="show-term-condition">terms and conditions</span>
-      left_side: Left Side
-      left_side_fender: fender
-      left_side_front_left_door: Door
-      left_side_front_left_tyre: Tyre
-      left_side_front_left_window: Window
-      left_side_quarter_panel: Quarter Panel
-      left_side_rear_left_door: Door
-      left_side_rear_left_tyre: Tyre
-      left_side_rear_left_window: Window
-      left_side_middle_window: Window
-      rear_left_view: rear-left<br/>side view
-      rear_right_view: rear-right<br/>side view
-      rear_side: Rear Side
-      rear_side_left_bumper: Left bumper
-      rear_side_left_tail_light: Left tail light
-      rear_side_right_bumper: Right bumper
-      rear_side_right_tail_light: Right tail light
-      rear_side_trunk: Trunk
-      rear_side_windshield: Windshield
-      right_side: Right Side
-      right_side_fender: fender
-      right_side_front_right_door: Door
-      right_side_front_right_tyre: Tyre
-      right_side_front_right_window: Window
-      right_side_quarter_panel: Quarter Panel
-      right_side_rear_right_door: Door
-      right_side_rear_right_tyre: Tyre
-      right_side_rear_right_window: Window
-      right_side_middle_window: Window
-      roof_left: Roof Left
-      roof_right: Roof Right
-      roof_top: Roof Top
-      other_side: Other
-      damage_photo: Damage Photo
-      sub_header: Photo upload/capture
-      tab_one_to_upload: Tap one of the boxes to upload an image
-      take_at_least_a_photo: Please take at least 1 photo
-      select_at_least_a_photo: Please select at least 1 photo
-      unsupported: Notification
-      copy_link: Copy
-      copied: Copied
-      unsupported_safari: We do not support safari lower than version 11
-      open_with_chrome: Open with Google Chrome
-      unsupported_webrtc: Your web browser doesn't support webrtc
-      take_photo_outline_message: Please take the photo in landscape format and following the outline of the car. Thanks!
-      take_photo_document_message: Please capture the document with all four corners visible
-      terms_and_conditions: Terms & Conditions
-      uploading_photos: Uploading photos...
-      photo_app_thankyou: |
-        <p>Thank you for taking the time to upload photos of damages.</p>
-        <p>This will expedite the claim process and assist our evaluation of the damages.</p>
-        <p>Please Contact Lex at (0152) 1136- 107 ex. 789 with any questions.</p>
-        <br />
-        <p>Sincerely<br />MC Claims Team</p>
-      next: NEXT
-      send: SEND
-      rating:
-        please_rate_your_experience: Please Rate Your Experience
-        submit: DONE
-        other_placeholder: Feel free to share your experience
-        too_many_character: Too many characters. Maximum is 500
-      upload_other_photo: Upload other photo
-      capture_photo: Capture photo
-      other: Other
-      ar_document: AR Documents
-      ar_photo_terms_and_conditions: "I agree to the <a data-toggle='modal' data-target='#show-term-condition'>terms and conditions</a>"
-    welcome_modal:
-      title: Tips for taking the best photos
-      content_1: Make sure your car is clean and dry.
-      content_2: "Use good lighting conditions:<br/>Daylight, no flash, and avoid direct sunlight."
-    help_modal:
-      vin_number_title: "What does VIN number mean and where can I find it?"
-      vin_number_content_1: The vehicle identification number is a unique code that is assigned to each vehicle during manufacture. The VIN number is a 17-digit combination of letters and numbers.
-      vin_number_content_2: "The VIN number can be found in the following places, depending on the vehicle:"
-      vin_number_content_3:
-      vin_number_content_4:
-      vin_number_content_5: 1. Windshield (left side, in the direction of travel)
-      vin_number_content_6: 2. Door frames (left and right)
-      vin_number_content_7: 3. Engine compartment
-      vehicle_registration_title: "Please take a photo of your vehicle registration as shown"
-    thank_you:
-      content_1: Thank you for taking the time to capture photos of the damage.
-      content_2: This helps speed up the process and supports our assessment.
-      content_3: "If you have any questions, please contact us at 0152 1122 122 (ext. 789)."
-      content_4: Kind regards,, MC team
+  ar_photo_app_v2:
+    claim: Claim
+    page_step: Step %{page} From %{pages}
+    provide_details: Details
+    damage_report_submitted: Your damage report has been submitted.
+    get_back_within_business_days: Thank you
+    insurance_number: Insurance number
+    what_damage_injury_has_occurred: "What damage/injury has occurred?"
+    has_additional_third_party_damage: Has there been additional third-party damage?
+    avis_vehicle_detail: AVIS vehicle
+    opponent_vehicle_detail: Enemy vehicle details
+    signature_title: Sign and submit
+    signed_date_title: Signed Date
+    signed_location_title: Signed Location
+    signature_pdf_title: Signature
+    confirm_completed: I hereby confirm the completeness and accuracy of the information I have provided.
+    send_a_copy_to_my_email: Send a copy to my email address
+    please_provide_details_of_the_avis_vehicle: Please provide details of the AVIS vehicle.
+    please_provide_details_of_the_opponent_vehicle: Please provide details of the opponent's vehicle.
+    vehicle_damage_title: AVIS vehicle
+    vehicle_damage_description: Please provide details of the AVIS vehicle.
+    vehicle_number_of_damage_title: Enemy vehicle details
+    vehicle_number_of_damage_description: Please provide details of the opponent's vehicle.
+    insurance_number: Insurance number
+    insurance_phone: Phone
+    insurance_email: E-Mail
+    vehicle_damages:
+      damage_to_the_avis_vehicle: Damage to the AVIS vehicle
+      injury_to_a_person: Injury to a person
+      damage_to_an_object: Damage to an item
+    vehicle_number_of_damages:
+      third_party_damage_to_another_vehicle: Third-party damage to another vehicle
+      external_damage_to_several_vehicle: External damage to several vehicles
+      no_vehicle_damage: No vehicle damage
+    custom_claim_pages:
+      page0:
+        name: General information about the damage
+        code: 'claim'
+        display_order: 0
+        fields:
+          field1:
+            field_label: Wann ist der Schaden passiert?
+            field_name: accident_date
+            field_type: date
+            required: "true"
+          field2:
+            field_label: Wie lautet das Kennzeichen des AVIS-Fahrzeugs?
+            field_name: registration_number
+            field_type: text
+            required: "true"
+          field3:
+            field_label: Wie lautet Ihre Mietvertragsnummer?
+            field_name: rental_agreement_number
+            field_type: text
+            placeholder: Diese ist auf dem Mietvertrag zu finden
+      page1:
+        name: 'Unfalldetails'
+        code: 'claim_group'
+        display_order: 1
+        fields:
+          field1:
+            field_type: radio
+            field_label: Was ist passiert?
+            field_name: happened
+            field_options:
+              option1:
+                name: accident
+                label: Unfall
+                hint: "z.B. Park oder Verkehrsunfall / Wildunfall"
+              option2:
+                name: damage
+                label: Sachschaden
+                hint: "Glas, Tierbiss, Vandalismus, Unwetter, Panne, Brand oder Kurzschluss, Diebstahl"
+          field2:
+            field_label: Daten des Fahrzeugs
+            field_type: group_field
+            group_fields:
+              field1:
+                field_name: vehicle_ra_number
+                field_type: text
+                placeholder: RA-Nummer
+              field2:
+                field_name: vehicle_manufacturer
+                field_type: text
+                placeholder: Kennzeichen
+              field3:
+                field_name: vehicle_type
+                field_type: text
+                placeholder: Marke/Typ
+          field3:
+            field_name: accident_date
+            field_label: Wann ist der Schaden passiert?
+            field_type: datetime
+          field4:
+            field_label: Wo ist der Schaden passiert?
+            field_type: group_field
+            field_name: accident_place_information
+            group_fields:
+              field1:
+                field_name: accident_place
+                field_type: text
+                placeholder: PLZ
+              field2:
+                field_name: accident_place_other
+                field_type: text
+          field5:
+            field_label: Wie ist es zum Unfall gekommen?
+            field_name: accident_happen
+            field_type: radio
+            field_options:
+              option1:
+                name: parking
+                label: Beim Parken
+              option2:
+                name: rear_end_collision
+                label: Auffahrunfall
+              option3:
+                name: turning
+                label: Beim Abbiegen
+              option4:
+                label: Vorfahrtsverletzung
+              option5:
+                name: right_of_way_infringement
+                label: Beim Spurwechsel
+              option6:
+                name: other
+                label: Sonstiges
+          field9:
+            field_label: Bitte schildern Sie uns den Unfallhergang in Ihren Worten
+            placeholder: Skizze anfertigen
+            field_name: damage_description
+            field_type: textarea
+          field10:
+            field_label: Eine Skizze des Unfalls anfertigen
+            field_hint: Edit sketch
+            field_type: ar_draw
+            field_name: ar_draw
+      page2:
+        name: 'AVIS Fahrzeugdetails'
+        code: 'claim_avis'
+        display_order: 2
+        fields:
+          field1:
+            field_label: Wer ist das AVIS-Fahrzeug zum Schadenzeitpunkt gefahren?
+            field_type: group_field
+            field_name: claimant_information
+            group_fields:
+              field1:
+                field_type: text
+                field_name: claimant_firstname
+                placeholder: Name
+              field2:
+                field_type: text
+                field_name: claimant_lastname
+                placeholder: Vorname
+              field3:
+                field_type: text
+                field_name: claimant_address
+                placeholder: Anschrift
+              field4:
+                field_type: text
+                field_name: claimant_email
+                placeholder: E-Mail
+                field_input_type: email
+              field5:
+                field_type: text
+                field_name: claimant_phone
+                placeholder: Telefon
+          field2:
+            field_type: boolean
+            field_label: Hatte der AVIS-Fahrer einen gültigen Führerschein?
+            field_name: avis_driver_valid_license
+          field3:
+            field_type: boolean
+            field_label: Stand der AVIS-Fahrer während der Fahrt unter dem Einfluss von Alkohol, Drogen oder Medikamenten?
+            field_name: avis_driver_drunk
+          field4:
+            field_type: boolean
+            field_label: Hat sich der AVIS-Fahrer unerlaubt vom Unfallort entfernt?
+            field_name: avis_driver_leave_without_permit
+          field5:
+            field_type: checkbox
+            field_label: Wer hat nach Ihrer Einschätzung den Schaden verursacht?
+            field_name: accident_guess
+            field_options:
+              option1:
+                name: myself
+                label: Ich selbst
+              option2:
+                name: feind
+                label: Unfallgegner
+              option3:
+                name: other_person
+                label: Eine andere Person
+              option4:
+                name: animal
+                label: Ein Tier
+          field6:
+            field_label: Wurde der Schaden polizeilich aufgenommen?
+            field_type: group_field
+            field_name: recorded_information
+            group_fields:
+              field1:
+                field_name: recorded_by_the_police
+                field_type: boolean
+              field2:
+                field_name: recorded_receiving_office
+                field_type: text
+                placeholder: Aufnehmende Dienststelle
+              field3:
+                field_name: recorded_file_number
+                field_type: text
+                placeholder: Aktenzeichen
+          field7:
+            field_label: Gibt es Zeugen?
+            field_type: group_field
+            field_name: accident_witnesses_information
+            group_fields:
+              field1:
+                field_name: accident_witnesses
+                field_type: boolean
+              field2:
+                field_name: accident_witnesses_name
+                field_type: text
+                placeholder: Name
+              field3:
+                field_name: accident_witnesses_address
+                field_type: text
+                placeholder: Anschrift
+      page3:
+        name: Wo wurde das AVIS-Fahrzeug beschädigt?
+        tips: Tippen Sie auf die Felder zum Erstellen von Fotos
+        code: claim_photo_app
+        fields:
+          field1:
+            field_label: AR Photo
+            field_name: ar_photo_car_part
+            field_type: ar_photo_car_part
+      page4:
+        name: Gegnerische Fahrzeugdetails
+        code: claim_member
+        display_order: 3
+        fields:
+          field1:
+            field_label: Was fuhr der Unfallgegner für ein Fahrzeug?
+            field_name: involved_vehicle
+            field_type: radio
+            field_options:
+              option1:
+                name: pkv
+                label: PKW
+              option2:
+                name: light_motorcycle_trailer
+                label: Leichtkraftrad / Kraftrad / Anhänger
+              option3:
+                name: other_vehicle
+                label: Sonstiges Fahrzeug
+          field2:
+            field_name: involved_vehicle_mark
+            field_label: Kennzeichen
+            field_type: text
+          field3:
+            field_label: Angaben zum Fahrer des gegnerischen Fahrzeugs
+            field_type: group_field
+            field_name: driver_information
+            group_fields:
+              field1:
+                field_type: text
+                field_name: driver_name
+                placeholder: Name
+              field2:
+                field_type: text
+                field_name: driver_address
+                placeholder: Anschrift
+              field3:
+                field_type: text
+                field_name: driver_phone
+                placeholder: Telefon
+              field4:
+                field_type: text
+                field_name: driver_email
+                placeholder: E-Mail
+                field_input_type: email
+          field4:
+            field_label: Ist dies auch der Halter des Fahrzeugs?
+            field_name: driver_is_owner_of_vehicle
+            field_type: boolean
+          field5:
+            field_label: Geben Sie bitte dann Daten des Halters an
+            field_type: group_field
+            field_name: claimant_member_information
+            group_fields:
+              field1:
+                field_type: text
+                field_name: claimant_name
+                placeholder: Name
+              field2:
+                field_type: text
+                field_name: claimant_address
+                placeholder: Anschrift
+              field3:
+                field_type: text
+                field_name: claimant_phone
+                placeholder: Telefon
+              field4:
+                field_type: text
+                field_name: claimant_email
+                field_input_type: email
+                placeholder: E-Mail
+              field5:
+                field_type: text
+                field_name: claimant_phone
+                placeholder: Telefon
+          field6:
+            field_label: Bei welcher Versicherung ist das Fahrzeug des Unfallgegners versichert?
+            field_name: involved_vehicle_insurance
+            field_type: group_field
+            group_fields:
+              field1:
+                field_name: involved_vehicle_insurance_name
+                field_type: text
+                placeholder: Gesellschaft
+              field2:
+                field_name: involved_vehicle_insurance_number
+                field_type: text
+                placeholder: Vertragsnummer
+          field7:
+            field_label: Hatte das Fahrzeug des Unfallgegners zum Zeitpunkt des Unfalls unreparierte Vorschäden?
+            field_name: involved_vehicle_unrepaired_previous
+            field_type: radio
+            field_input_type: button
+            field_options:
+              option1:
+                name: "yes"
+                label: Ja
+              option2:
+                name: "no"
+                label: NEIN
+              option3:
+                name: not_know
+                label: Nicht bekannt
+      page5:
+        name: Details zum beschädigten Objekt
+        code: claim_object
+        display_order: 4
+        fields:
+          field1:
+            field_label: Welche Gegenstände wurden beschädigt/berührt?
+            field_type: checkbox
+            field_name: object_damage
+            field_options:
+              option1:
+                name: buildings_and_parts_thereof
+                label: Gebäude und deren Teile
+              option2:
+                name: movable_objects_such_as_bicycles
+                label: "Bewegliche Gegenstände wie z.B. Fahrrad"
+              option3:
+                name: street_facilities
+                label: "Straßeneinrichtungen (z.B. Leitplanken, Schilder, Ampeln etc.)"
+              option4:
+                name: trees_plants_and_plants
+                label: "Bäume, Gewächse und Pflanzen"
+              option5:
+                name: fences
+                label: "Zäune"
+              option6:
+                name: animals
+                label: "Tiere"
+              option7:
+                name: train_tram_barrierat_the_level_crossing
+                label: "Zug, Straßenbahn, Schranke am Bahnübergang"
+              option8:
+                name: other
+                label: "Sonstiges"
+          field2:
+            field_label: Haben die Eigentümer Kenntnis über den Schaden erhalten?
+            field_type: boolean
+            field_name: owners_informed
+          field3:
+            field_label: Haben Sie Fotos an der Unfallstelle gemacht?
+            field_type: boolean
+            field_name: take_photos_accident
+          field4:
+            field_label: AR Photo Additional
+            field_type: ar_photo_additional
+            field_name: ar_photo_additional
