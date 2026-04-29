@@ -1,34 +1,83 @@
 en:
-  activerecord:
-    attributes:
-      claim_cash_settlement/cash_settlement:
-        amount_currency: Currency
-        amount_cents: Money
-  enumerize:
-    claim_cash_settlement/cash_settlement:
-      amount_currency:
-        EUR: EUR (€)
-        USD: USD ($)
-        PHP: PHP (₱)
-        CAD: CAD ($)
-        GBP: GBP (£)
-      status:
-        new: New
-        offerred: Sent
-        accepted: Accepted
-        rejected: Rejected
-  message:
-    cash_settlement_created: Successfully saved cash settlement
-    cash_settlement_create_failed: Fail to save cash settlement
-  send_to_claimant: Send to claimant
-  cash_amount: Cash Amount
-  history_details: History Details
-  status: Status
-  description: Description
-  cost_estimation_report: Cost Estimation Report
-  download_here: Download here
-  cash_settlement:
-    gdpr_content: |
-      <p>I confirm that the data and information I have provided is true. I am aware that deliberate omissions or incorrect explanations, even if they are not decisive for determining the responsibility or the amount of damage, could lead to the loss of insurance coverage. If there are any changes, I commit to notifying %{insurer_name}.</p>
-      <p><strong>CONSENT TO THE TREATMENT OF GENERAL AND SENSITIVE PERSONAL DATA</strong></p>
-      <p>General Data Protection Regulation / EU 2016/679, the undersigned declares his consent to the processing and transmission of his personal data in accordance with the content of point 2 of the previously received data protection declaration *.</p>
+  label:
+    operation_number: Vorgangsnummer
+  button:
+    next: NEXT
+    send: SEND
+    sms_sent: SMS sent
+    save: Save
+    save_and_update: Save & Update
+    delete: Delete
+    submit: Save
+    cancel: Cancel
+    update: Update
+    new: New
+    close: Close
+    unsubscribe: Unsubscribe
+    unsubscribe_hint_all: Unsubscribe Email & SMS
+    unsubscribe_hint_email: Unsubscribe Email
+    unsubscribe_hint_sms: Unsubscribe SMS
+    back: Back
+    delete_claim: Delete entry
+    copy_url: Copy URL
+    video_call: Start video call
+    video_appointment: Make an appointment
+    view_galleries: View galleries
+    send_to_ai_bot: Send to AI Bot
+    generate_report: Create report
+    search: Search
+    export: Export
+    download: Download
+    download_as_excel: Download As Excel
+    download_documents: Download Documents
+    new_insurer: New insurer
+    new_insured_building: New Object
+    new_status: New status
+    new_task: New task
+    checklist: Checklist
+    login: Log in
+    copy: Copy
+    confirm: Confirm
+    submit_damage: Submit case
+    edit_damage: Update
+    enable: Enable
+    disable: Disable
+    forgot_password_email: Forgot password email
+    yes_text: "Yes"
+    no_text: "No"
+    continue: Continue
+    go_send: Send
+    upload_file: Choose File
+    track_your_claim: Track your claim
+    oke: Okay
+    i_got_it: I got it!
+    yes_i_acknowledge: Yes, I acknowledge
+    contact_support: Contact Support
+    contact_person: Contact Person
+    upload_csv: Upload CSV
+    mark_as_completed: Completed case
+    damage_report: Damage Report
+    payment_report: Internal Claim Payments
+    external_damage_payments: External damage payments
+    add_new_treatment: Add new treatment
+    add_new_damage: Add new damage
+  deletion:
+    title: Delete case
+    confirm_claim: "Do you really want to delete the case/ transaction: %{claim_number}?"
+    photo_confirm_sms: Should these snapshots be deleted?
+    confirm_file: Do you really want to delete this file?
+    confirm_insurer: "Do you really want to delete the insurer: %{insurer_name}?"
+  soft_deletion:
+    confirm_insurer: "Do you really want to disable the insurer: %{insurer_name}?"
+  restoration:
+    title: Restore case
+    confirm_insurer: "Do you really want to restore the insurer: %{insurer_name}?"
+  confirm:
+    title: Are you sure?
+    commit: Delete
+    cancel: Cancel
+    unsubscribe: Unsubscribe
+  tooltip:
+    track_your_claim: Click or tap to track your claim.
+  filename:
+    video_appointment: "video_call_appointment_for"
