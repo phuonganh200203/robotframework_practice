@@ -1,38 +1,64 @@
 en:
-  enumerize:
-    user:
-      title:
-        mr: Mr.
-        mrs: Mrs.
-      role:
-        admin: Admin
-        adjuster: Adjuster
-        adjuster_property: Adjuster Property
-        adjuster_vehicle: Adjuster Vehicle
-        building_manager: Building manager
-        collaborator: Collaborator
-        insurer: Insurer Admin
-        team_leader_property: Team Leader Property
-        team_leader_vehicle: Team Leader Vehicle
-  user:
-    permission_denied: Access denied
-    tel: Phone number
-    what_is_role: What's role for this user?
-    tag_an_insurer: Mark an insurer for this user
-    insurer_required: Select an insurer
-    select_a_region: Select a region
-    new_user: Create new user
-    instruction_sent: Forgot password email was sent
-    creating_error: Failed to create new user
-    edit_user: Edit user
-    update_success: Successfully updated user
-    update_error: Failed to update user
-    delete_success: Successfully disabled user
-    delete_error: Failed to delete user
-    forgot_password_email: Forgot password email
-    deactivate_user: Disable user login
-    resend_forgot_password_email_confirmation: Would you like to resend forgot password email
-    user_enabled: Successfully enabled user
-    user_disabled: Successfully disabled user
-    street_name_and_number: Street name and number
-    postcode_and_town: Postcode and town
+  picture_app:
+    photo_app_number_title: "Case number: %{order_id}"
+    photo_app_upload_title: Upload / capture images
+    photo_app_upload_description: Tap one of the boxes to upload an image * (image size max. 10 MB) *
+    upload_title: Upload / capture images
+    gdpr_content: |
+      <p>I confirm that the data and information I have provided is true. I am aware that deliberate omissions or incorrect explanations, even if they are not decisive for determining the responsibility or the amount of damage, could lead to the loss of insurance coverage. If there are any changes, I commit to notifying %{insurer_name}.</p>
+      <p><strong>CONSENT TO THE TREATMENT OF GENERAL AND SENSITIVE PERSONAL DATA</strong></p>
+      <p>General Data Protection Regulation / EU 2016/679, the undersigned declares his consent to the processing and transmission of his personal data in accordance with the content of point 2 of the previously received data protection declaration *.</p>
+    agree_and_send: Send
+    complete_with_signature: End the process with your signature
+    additional_doc: Additional pictures and documents
+    additional_photo: More photos / documents
+    signature: Signature
+    vehicle:
+      upload_damage_pictures: Upload pictures of the damage
+      upload_description: Tap one of the boxes to upload an image * (image size max. 10 MB) *
+      front_damage: Front damage
+      heck_damage: Rear damage
+      right_rear_damage: Right rear damage
+      left_rear_damage: Left rear damage
+      left_front_damage: Left front damage
+      right_front_damage: Right front damage
+      side_damage: Side damage
+      glass_damage: Glass damage
+      police_report: Police report
+      other_damage: Other damage
+      vehicle_registration: Images vehicle registration
+      additional_doc: Additional pictures and documents
+      vin_number: FIN Nummer
+      mileage: Kilometerstand
+      vehicle_registration: Fahrzeugschein
+    property:
+      upload_description: Tap the box to upload the image * (image size maximum 10 MB) *
+      upload_damage_pictures: Upload pictures of property damage
+      damage_room_overview1: Damage forecast side 1
+      damage_room_overview2: Damage forecast side 2
+      detail_of_damage1: Details damage 1
+      detail_of_damage2: Details damage 2
+      additional_doc: Additional pictures and documents
+    ar_photo_app:
+      vin_number: FIN Nummer
+      mileage: Kilometerstand
+      vehicle_registration: Fahrzeugschein
+    messages:
+      browser_not_support_geolocation: The determination of the location is not supported by this browser
+      geocoder_failed_reason: Geocoder failed due to
+      signature_required: Please sign first
+      location_required: Please enter your location
+      upload_error: There was a mistake. Please try again.
+      user_denied_geolocation: Geolocation was rejected by the user.
+    thank_you_body: |
+      <p>Thank you for taking the time to send us photos.</p>
+      <p> This speeds up the process and helps us assess the damage.</p>
+      <p>Contact us at process number %{insurer_phone} or write to us at %{insurer_email}.</p>
+      <p>
+        <span>Sincerely<br></span>
+        <span>%{insurer_name} team</span>
+      </p>
+    photo_app_term_and_condition_body: |
+      <h1 class="text-center m-b-30">Video inspection terms and conditions</h1>
+      <p class="text-align-justify">If you use this platform to send in your case, you agree to the following:</p>
+      <p class="text-align-justify m-b-30">All photos, location data and comments that are uploaded to this platform are the object of THE COMPANY and its subsidiaries and sister companies ("MotionsCloud"), the developer of this platform. All video / voice chats that occur on this platform are recorded and are also the object of %{insurer_name} and MotionsCloud. %{insurer_name} will keep the videos, photos, comments or other information (shared information) as part of its damage data and MotionsCloud will keep shared information for research and development. %{insurer_name} and MotionsCloud count the shared information as their declaration of consent. All shared information provided by the damage process will be used as evidence, according to the evidence, in a case of litigation.</p>
