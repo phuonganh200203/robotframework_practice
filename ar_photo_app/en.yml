@@ -1,64 +1,113 @@
 en:
-  picture_app:
-    photo_app_number_title: "Case number: %{order_id}"
-    photo_app_upload_title: Upload / capture images
-    photo_app_upload_description: Tap one of the boxes to upload an image * (image size max. 10 MB) *
-    upload_title: Upload / capture images
-    gdpr_content: |
-      <p>I confirm that the data and information I have provided is true. I am aware that deliberate omissions or incorrect explanations, even if they are not decisive for determining the responsibility or the amount of damage, could lead to the loss of insurance coverage. If there are any changes, I commit to notifying %{insurer_name}.</p>
-      <p><strong>CONSENT TO THE TREATMENT OF GENERAL AND SENSITIVE PERSONAL DATA</strong></p>
-      <p>General Data Protection Regulation / EU 2016/679, the undersigned declares his consent to the processing and transmission of his personal data in accordance with the content of point 2 of the previously received data protection declaration *.</p>
-    agree_and_send: Send
-    complete_with_signature: End the process with your signature
-    additional_doc: Additional pictures and documents
-    additional_photo: More photos / documents
-    signature: Signature
-    vehicle:
-      upload_damage_pictures: Upload pictures of the damage
-      upload_description: Tap one of the boxes to upload an image * (image size max. 10 MB) *
-      front_damage: Front damage
-      heck_damage: Rear damage
-      right_rear_damage: Right rear damage
-      left_rear_damage: Left rear damage
-      left_front_damage: Left front damage
-      right_front_damage: Right front damage
-      side_damage: Side damage
-      glass_damage: Glass damage
-      police_report: Police report
-      other_damage: Other damage
-      vehicle_registration: Images vehicle registration
-      additional_doc: Additional pictures and documents
-      vin_number: FIN Nummer
-      mileage: Kilometerstand
-      vehicle_registration: Fahrzeugschein
-    property:
-      upload_description: Tap the box to upload the image * (image size maximum 10 MB) *
-      upload_damage_pictures: Upload pictures of property damage
-      damage_room_overview1: Damage forecast side 1
-      damage_room_overview2: Damage forecast side 2
-      detail_of_damage1: Details damage 1
-      detail_of_damage2: Details damage 2
-      additional_doc: Additional pictures and documents
-    ar_photo_app:
-      vin_number: FIN Nummer
-      mileage: Kilometerstand
-      vehicle_registration: Fahrzeugschein
-    messages:
-      browser_not_support_geolocation: The determination of the location is not supported by this browser
-      geocoder_failed_reason: Geocoder failed due to
-      signature_required: Please sign first
-      location_required: Please enter your location
-      upload_error: There was a mistake. Please try again.
-      user_denied_geolocation: Geolocation was rejected by the user.
-    thank_you_body: |
-      <p>Thank you for taking the time to send us photos.</p>
-      <p> This speeds up the process and helps us assess the damage.</p>
-      <p>Contact us at process number %{insurer_phone} or write to us at %{insurer_email}.</p>
-      <p>
-        <span>Sincerely<br></span>
-        <span>%{insurer_name} team</span>
-      </p>
-    photo_app_term_and_condition_body: |
-      <h1 class="text-center m-b-30">Video inspection terms and conditions</h1>
-      <p class="text-align-justify">If you use this platform to send in your case, you agree to the following:</p>
-      <p class="text-align-justify m-b-30">All photos, location data and comments that are uploaded to this platform are the object of THE COMPANY and its subsidiaries and sister companies ("MotionsCloud"), the developer of this platform. All video / voice chats that occur on this platform are recorded and are also the object of %{insurer_name} and MotionsCloud. %{insurer_name} will keep the videos, photos, comments or other information (shared information) as part of its damage data and MotionsCloud will keep shared information for research and development. %{insurer_name} and MotionsCloud count the shared information as their declaration of consent. All shared information provided by the damage process will be used as evidence, according to the evidence, in a case of litigation.</p>
+  ar_photo_app:
+    photo:
+      index:
+        title: Bitte wählen Sie Ihren Fahrzeugtyp aus
+        sub_title: Wählen Sie Ihren Fahrzeugtyp aus der folgenden Kategorie
+      show:
+        title: Fotos erstellen
+        sub_title: Tippen Sie auf die Felder zum Erstellen von Fotos
+    photos:
+      see_instruction: Details gibt’s hier
+      vin_number: VIN number
+      mileage: mileage
+      vehicle_registration: vehicle registration
+      front_left_view: front-left<br/>side view
+      front_right_view: front-right<br/>side view
+      front_side: Front side
+      front_side_grilled: Grilled
+      front_side_hood: hood
+      front_side_left_bumper: Left bumper
+      front_side_left_head_light: Left head light
+      front_side_right_bumper: Right bumper
+      front_side_right_head_light: right head light
+      front_side_windshield: Windshield
+      i_agree_to_the: I agree to the
+      left_side: Left Side
+      left_side_fender: fender
+      left_side_front_left_door: Door
+      left_side_front_left_tyre: Tyre
+      left_side_front_left_window: Window
+      left_side_quarter_panel: Quarter Panel
+      left_side_rear_left_door: Door
+      left_side_rear_left_tyre: Tyre
+      left_side_rear_left_window: Window
+      left_side_middle_window: Window
+      rear_left_view: rear-left<br/>side view
+      rear_right_view: rear-right<br/>side view
+      rear_side: Rear Side
+      rear_side_left_bumper: Left bumper
+      rear_side_left_tail_light: Left tail light
+      rear_side_right_bumper: Right bumper
+      rear_side_right_tail_light: Right tail light
+      rear_side_trunk: Trunk
+      rear_side_windshield: Windshield
+      right_side: Right Side
+      right_side_fender: fender
+      right_side_front_right_door: Door
+      right_side_front_right_tyre: Tyre
+      right_side_front_right_window: Window
+      right_side_quarter_panel: Quarter Panel
+      right_side_rear_right_door: Door
+      right_side_rear_right_tyre: Tyre
+      right_side_rear_right_window: Window
+      right_side_middle_window: Window
+      roof_left: Roof Left
+      roof_right: Roof Right
+      roof_top: Roof Top
+      other_side: Other
+      sub_header: Photo upload/capture
+      tab_one_to_upload: Tap one of the boxes to upload an image
+      take_at_least_a_photo: Please take at least 1 photo
+      select_at_least_a_photo: Please select at least 1 photo
+      unsupported: Notification
+      copy_link: Copy
+      copied: Copied
+      unsupported_safari: We do not support safari lower than version 11
+      open_with_chrome: Open with Google Chrome
+      unsupported_webrtc: Your web browser doesn't support webrtc
+      take_photo_outline_message: Please take the photo in landscape format and following the outline of the car. Thanks!
+      terms_and_conditions: Terms & Conditions
+      uploading_photos: Uploading photos...
+      photo_app_thankyou: |
+        <p>Thank you for taking the time to upload photos of damages.</p>
+        <p>This will expedite the claim process and assist our evaluation of the damages.</p>
+        <p>Please Contact Lex at (0152) 1136- 107 ex. 789 with any questions.</p>
+        <br />
+        <p>Sincerely<br />MC Claims Team</p>
+      next: NEXT
+      send: SEND
+      rating:
+        please_rate_your_experience: Please Rate Your Experience
+        submit: DONE
+        other_placeholder: Feel free to share your experience
+        too_many_character: Too many characters. Maximum is 500
+      upload_other_photo: Upload other photo
+      capture_photo: Capture photo
+    welcome_modal:
+      title: Unsere Tipps für ein optimales Fotoergebnis
+      content: |
+        <ul class="instroduce-content">
+          <li>Ihr Auto sollte sauber und trocken sein</li>
+          <li>Achte auf gute Lichtverhältnisse: <br/>Tageslicht, kein Blitz und ohne direkte Sonneneinstrahlung fotografieren – so kann eigentlich schon nix mehr schief gehen 😉</li>
+        </ul>
+    help_modal:
+      vin_number:
+        title: "Was bedeutet FIN-Nummer und wo finde ich diese?"
+        content: |
+          <p>Die Fahrzeug-Identifizierungsnummer ist ein eindeutiger Code, der jedem Fahrzeug bei der Herstellung zugeteilt wird. Die FIN-Nummer ist eine 17-stellige Kombination aus Buchstaben und Zahlen.</p>
+          <h4>Die FIN-Nummer befinden sich fahrzeugspezifisch an folgenden Stellen:</h4>
+          <h5>In der Zulassung</h5>
+          <div class="image vin_number_0"></div>
+          <h5>sowie am Fahrzeug</h5>
+          <div class="image vin_number_1"></div>
+          <h5>1. an der Windschutzscheibe in Fahrtrichtung links</h5>
+          <div class="image vin_number_2"></div>
+          <h5>2. an den linken und rechten Türrahmen</h5>
+          <div class="image vin_number_3"></div>
+          <h5>3. Im Motorraum</h5>
+          <div class="image vin_number_4"></div>
+      vehicle_registration:
+        title: "Bitte fotografieren Sie Ihren Fahrzeugschein wie abgebildet"
+        content: |
+          <div class="image vehicle_registration_0"></div>
