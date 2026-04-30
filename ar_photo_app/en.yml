@@ -1,10 +1,38 @@
 en:
   enumerize:
-    document:
-      label:
-        police_building_insurance: Police building insurance
-        police_liability_insurance: Police liability insurance
-        building_insurance_premiums: Building insurance premium invoice
-        contribution_invoice_liability: Liability insurance premium invoice
-        damage_reports: Claims reports
-        others: Others
+    user:
+      title:
+        mr: Mr.
+        mrs: Mrs.
+      role:
+        admin: Admin
+        adjuster: Adjuster
+        adjuster_property: Adjuster Property
+        adjuster_vehicle: Adjuster Vehicle
+        building_manager: Building manager
+        collaborator: Collaborator
+        insurer: Insurer Admin
+        team_leader_property: Team Leader Property
+        team_leader_vehicle: Team Leader Vehicle
+  user:
+    permission_denied: Access denied
+    tel: Phone number
+    what_is_role: What's role for this user?
+    tag_an_insurer: Mark an insurer for this user
+    insurer_required: Select an insurer
+    select_a_region: Select a region
+    new_user: Create new user
+    instruction_sent: Forgot password email was sent
+    creating_error: Failed to create new user
+    edit_user: Edit user
+    update_success: Successfully updated user
+    update_error: Failed to update user
+    delete_success: Successfully disabled user
+    delete_error: Failed to delete user
+    forgot_password_email: Forgot password email
+    deactivate_user: Disable user login
+    resend_forgot_password_email_confirmation: Would you like to resend forgot password email
+    user_enabled: Successfully enabled user
+    user_disabled: Successfully disabled user
+    street_name_and_number: Street name and number
+    postcode_and_town: Postcode and town
