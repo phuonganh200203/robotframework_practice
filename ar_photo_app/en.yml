@@ -1,402 +1,189 @@
 en:
-  enumerize:
-    predict_part:
-      carpart:
-        sli_side_turn_light: Side Turn Light
-        tyre: Tyre
-        alloy_wheel: Alloy Wheel
-        hli_head_light: Head Light
-        hood: Hood
-        fwi_windshield: Windshield
-        flp_front_license_plate: Front License Plate
-        door: Door
-        front_door: Front door
-        rear_door: Rear door
-        mirror: Mirror
-        handle: Handle
-        qpa_quarter_panel: Quarter Panel
-        fender: Fender
-        grille: Grille
-        fbu_front_bumper: Front Bumper
-        rocker_panel: Rocker Panel
-        rbu_rear_bumper: Rear Bumper
-        pillar: Pillar
-        roof: Roof
-        blp_back_license_plate: Back License Plate
-        window: Window
-        rwi_rear_windshield: Rear Windshield
-        trunk: Trunk
-        tail_gate: Tail Gate
-        tli_tail_light: Tail Light
-        fbe_fog_light_bezel: Fog Light Bezel
-        fli_fog_light: Fog Light
-        fuel_tank_door: Fuel Tank Door
-        lli_low_bumper_tail_light: Low Bumper Tail Light
-        hpa_header_panel: Hpa header panel
-        bpg_bumper_guard: Bpg bumper guard
-        hsl_high_mount_stop_light: Hsl high mount stop light
-        quw_quater_window: Quw quater window
-        def_window_deflector: Def window deflector
-        step_bar: Step bar
-        running_board: Running board
-        A_pillar: A pillar
-        B_pillar: B pillar
-        C_pillar: C pillar
-        D_pillar: D pillar
-        rac_roof_rack: Rac roof rack
-        rai_roof_rail: Rai roof rail
-        spo_roof_spoiler: Spo roof spoiler
-        sun_roof: Sun roof
-        antenna: Antenna
-        exhaust: Exhaust
-        bpn_bed_panel: Bpn bed panel
-        bcv_bed_cover: Bcv bed cover
-        mpa_mid_panel: Mpa mid panel
-        rpa_rear_panel: Rpa_rear panel
-        rdo_rear_door: Rdo rear door
-        extra_cost: Extra Costs
-        paint_extra_cost: Paint
-        additional_extra_cost: Extra Costs
-        additional_other_cost: Other Costs
-        door_handle: Door Handle
-        hood_bonnet: Hood/Bonnet
-        trunk_boot_tailgate: Trunk/Boot/Tailgate
-        wheel: Wheel
-        headlight: Headlight
-        taillight: Taillight
-        door_window: Door Window
-        door_mirror: Door Mirror
-        turn_light: Turn Light
-        number_plate: Number Plate
-        front_bumper: Front Bumper
-        rear_bumper: Rear Bumper
-        left_front_fog_light: Left Front Fog Light
-        right_front_fog_light: Right Front Fog Light
-        left_rear_fog_light: Left Rear Fog Light
-        right_rear_fog_light: Right Rear Fog Light
-        left_front_fender: Left Front Fender
-        right_front_fender: Right Front Fender
-        left_quarter_panel: Left Quarter Panel
-        right_quarter_panel: Right Quarter Panel
-        left_front_wheel: Left Front Wheel
-        right_front_wheel: Right Front Wheel
-        left_rear_wheel: Left Rear Wheel
-        right_rear_wheel: Right Rear Wheel
-        left_front_door: Left Front Door
-        right_front_door: Right Front Door
-        left_rear_door: Left Rear Door
-        right_rear_door: Right Rear Door
-        front_windshield: Front Windshield
-        rear_windshield: Rear Windshield
-        left_headlight: Left Headlight
-        rear_headlight: Rear Headlight
-        left_taillight: Left Taillight
-        right_taillight: Right Taillight
-        left_rocker_panel: Left Rocker Panel
-        right_rocker_panel: Right Rocker Panel
-        left_front_door_window: Left Front Door Window
-        right_front_door_window: Right Front Door Window
-        left_rear_door_window: Left Rear Door Window
-        right_rear_door_window: Right Rear Door Window
-        left_door_mirror: Left Door Mirror
-        right_door_mirror: Right Door Mirror
-        left_front_door_handle: Left Front Door Handle
-        right_front_door_handle: Right Front Door Handle
-        left_rear_door_handle: Left Rear Door Handle
-        right_rear_door_handle: Right Rear Door Handle
-        left_fuel_tank_door: Left Fuel Tank Door
-        right_fuel_tank_door: Right Fuel Tank Door
-        left_side_turn_light: Left Side Turn Light
-        right_side_turn_light: Right Side Turn Light
-        front_number_plate: Front Number Plate
-        rear_number_plate: Rear Number Plate
-        front_spoiler: Front Spoiler
-        roof_spoiler: Roof Spoiler
-        rear_spoiler: Rear Spoiler
-        front_bumper_flare: Front Bumper Flare
-        fender_flare: Fender Flare
-        rear_bumper_flare: Rear Bumper Flare
-        quarter_panel_flare: Quarter Panel Flare
-        rear_diffusor: Rear Diffusor
-        door_mirror_glass: Door Mirror Glass
-        rear_fog_light: Rear fog light
-      sides:
-        front: Front
-        rear: Rear
-        left: Left
-        right: Right
-        front_left: Front left
-        front_right: Front right
-        rear_left: Rear left
-        rear_right: Rear right
-      side_1:
-        na: N/A
-        front: Front
-        rear: Rear
-      side_2:
-        na: N/A
-        left: Left
-        right: Right
-      side_3:
-        first_third: 1st Third
-        middle: Middle
-        last_third: Last Third
-        upper_first: Upper First
-        lower_first: Lower First
-        upper_second: Upper Second
-        lower_second: Lower Second
-        upper_third: Upper Third
-        lower_third: Lower Third
-      treatment:
-        repair: Repair
-        replace: Replace
-        totaled: Totaled
-        na: N/A
-        rr: Remove and Reinstall
-        paint: Painting
-        polish: Polish
-        at: Anti-corrosion Treatment
-        sp: Spot Repair
-      damage:
-        scratch: Scratch
-        crack: Crack
-        loose: Loose
-        dent: Dent
-        thin: Thin
-        broken: Broken
-        lamp_broken: Lamp Broken
-        glass_broken_hole: Glass Broken Hole
-        rust: Rust
-        total_missing: Total/Missing
-        severe: Severe
-        missing: Missing
-        na: N/A
-        blended_paint: Blended paint
-      severity:
-        low: Low
-        medium: Medium
-        high: High
-      damage_size:
-        na: "N/A"
-        smaller_than_a4_paper: Smaller than A4 Paper
-        greater_than_a4_paper: Bigger than A4 Paper
-    claim_import_history:
-      import_type:
-        csv: CSV
-        email: Email
-        api: API
-      status:
-        new: New
-        pending: Pending
-        progress: Progress
-        finish: Finished
-        cancel: Cancel
-    vehicle_type_of_body:
-      sedan: LIMOUSINE
-      station_wagon: KOMBI
-      hatchback: HATCHBACK
-      suv: SUV
-      small_car: SMALL CAR
-      van: VAN
-      pickup_truck: PICKUP
-    vehicle_type:
-      passenger_car: Personenwagen
-      pick_up: Transporter
-      off_road_vehicle: Geländewagen
-    vehicle_engine_type:
-      gasoline: Gasoline
-      hydrogen: Hydrogen
-      gasoline_alcohol: Gasoline/Alcohol
-      gasoline_electric: Gasoline/Electric
-      diesel: Diesel
-      gasoline_electric_plug_in: Gasoline/Electric Plug-in
-      strom_electric: Electric
-      diesel_electric_plug_in: Diesel/Electric Plug-in
-      diesel_electric: Diesel/Electric
-      gasoline_natural_gas: Gasoline/Natural Gas
-      gasoline_natural_gas_alcohol: Gasoline/Natural Gas/Alcohol
-    vehicle_type_of_transmission:
-      automatic: Automatic
-      direct_drive: Direct Drive
-      manual: Manual
-      manual_standard: Manual Standard
-    vehicle_charge:
-      no_classification: keine Zuordnung
-      compressor: Kompressor
-      compressor_and_turbo: Kompressor und Turbo
-      turbo: Turbo
-    vehicle_manufacturer:
-      abt: ABT
-      ac_schnitzer: AC Schnitzer
-      acura: Acura
-      alfa_romeo: Alfa Romeo
-      alpina: Alpina
-      alpine: Alpine
-      apex: Apex
-      arrinera: Arrinera
-      artega: Artega
-      ascari: Ascari
-      aston_martin: Aston Martin
-      audi: Audi
-      bac: BAC
-      bmw: BMW
-      bentley: Bentley
-      bertone: Bertone
-      borgward: Borgward
-      brabham: Brabham
-      brabus: Brabus
-      breckland: Breckland
-      bugatti: Bugatti
-      buick: Buick
-      cadillac: Cadillac
-      caparo: Caparo
-      carlsson: Carlsson
-      caterham: Caterham
-      chevrolet: Chevrolet
-      chrysler: Chrysler
-      citroen: Citroen
-      covini: Covini
-      cupra: Cupra
-      czinger: Czinger
-      ds: DS
-      dacia: Dacia
-      daewoo: Daewoo
-      daihatsu: Daihatsu
-      daimler: Daimler
-      datsun: Datsun
-      de_tomaso: De Tomaso
-      devon: Devon
-      dodge: Dodge
-      donkervoort: Donkervoort
-      edag: EDAG
-      edo: Edo
-      elfin: Elfin
-      eterniti: Eterniti
-      fm_auto: FM Auto
-      fpv: FPV
-      farbio: Farbio
-      ferrari: Ferrari
-      fiat: Fiat
-      fisker: Fisker
-      ford: Ford
-      gac: GAC
-      gm: GM
-      gmc: GMC
-      gta: GTA
-      genesis: Genesis
-      gordon_murray: Gordon Murray
-      gumpert: Gumpert
-      hsv: HSV
-      hamann: Hamann
-      hennessey: Hennessey
-      holden: Holden
-      honda: Honda
-      hummer: Hummer
-      hyundai: Hyundai
-      icona: Icona
-      infiniti: Infiniti
-      isuzu: Isuzu
-      italdesign: Italdesign
-      iveco: Iveco
-      jaguar: Jaguar
-      jeep: Jeep
-      ktm: KTM
-      karma: Karma
-      kia: Kia
-      kleemann: Kleemann
-      koenigsegg: Koenigsegg
-      lcc: LCC
-      lada: Lada
-      lamborghini: Lamborghini
-      lancia: Lancia
-      land_rover: Land Rover
-      larte: Larte
-      leblanc: Leblanc
-      lexus: Lexus
-      lincoln: Lincoln
-      lobini: Lobini
-      loremo: Loremo
-      lotus: Lotus
-      lucid: Lucid
-      lynk_co: Lynk Co
-      mg: MG
-      mansory: Mansory
-      marcos: Marcos
-      maserati: Maserati
-      maybach: Maybach
-      mazda: Mazda
-      mazel: Mazel
-      mclaren: McLaren
-      mercedes_benz: Mercedes-Benz
-      mercury: Mercury
-      mindset: Mindset
-      mini: Mini
-      mitsubishi: Mitsubishi
-      mitsuoka: Mitsuoka
-      morgan: Morgan
-      nanoflowcell: NanoFlowcell
-      nismo: Nismo
-      nissan: Nissan
-      noble: Noble
-      orca: ORCA
-      oldsmobile: Oldsmobile
-      opel: Opel
-      pgo: PGO
-      pagani: Pagani
-      panoz: Panoz
-      peugeot: Peugeot
-      pininfarina: Pininfarina
-      plymouth: Plymouth
-      polestar: Polestar
-      pontiac: Pontiac
-      porsche: Porsche
-      proton: Proton
-      qoros: Qoros
-      ram: Ram
-      renault: Renault
-      rimac: Rimac
-      rinspeed: Rinspeed
-      rivian: Rivian
-      rolls_royce: Rolls-Royce
-      rover: Rover
-      saab: Saab
-      saleen: Saleen
-      saturn: Saturn
-      scion: Scion
-      seat: Seat
-      singer: Singer
-      skoda: Skoda
-      smart: Smart
-      sony: Sony
-      spada: Spada
-      spyker: Spyker
-      ssangyong: SsangYong
-      startech: Startech
-      stola: Stola
-      strosek: Strosek
-      studiotorino: StudioTorino
-      subaru: Subaru
-      suzuki: Suzuki
-      tvr: TVR
-      tata: Tata
-      techart: TechArt
-      tesla: Tesla
-      think: Think
-      toyota: Toyota
-      tramontana: Tramontana
-      valmet: Valmet
-      vauxhall: Vauxhall
-      venturi: Venturi
-      vinfast: VinFast
-      volkswagen: Volkswagen
-      volvo: Volvo
-      vuhl: Vuhl
-      wald: Wald
-      wiesmann: Wiesmann
-      "yes": "Yes"
-      zagato: Zagato
-      zenvo: Zenvo
-    vin_number_information_source:
-      msc: MotionsCloud
-      vin_decoder: VinDecoder
-      schwakeh: Schwakeh
+  defaults:
+    mailer:
+      greeting: "Dear Mr / Ms %{claimant_lastname},"
+      sincerely_yours: Sincerely,
+      mcall_insurance: Your MotionsCall Versicherung AG
+      mcall_ag: MotionsCall Versicherung AG
+      mcall_address: Adenauerring 7, 81737 Munich
+      telephone: "Telephone: (089) 5121-0"
+      fax: "Telefax: (089) 5121-1000"
+      email: "E-mail: service.de@motionscall.com"
+      de_email: "E-mail (DE): service@motionscall.de-mail.de"
+      website: "Website: www.motionscall.de"
+      chairman_of_supervisory_board: "Chairman of the board: Antonio Cangeri"
+      director: "Executive Board: Giovanni Liverani (Chairman), Bernd Felske, Stefan Lehmann, Milan Novotný, Dr. Rainer Sommer, Dr. Robert Wehn"
+      mcall_group: MotionsCall Insurance is part of the MotionsCall Group.
+      footer: This message contains confidential information and is exclusively for the person addressed or their representative. If you are not the intended recipient of this message and its contents, please notify the sender immediately. Any form of unauthorised use, publication, reproduction, copying or disclosure of the content of the e-mail is not permitted.
+  claim_mailer:
+    uploaded_documentation_to_insurer:
+      subject: "Document uploaded: Claim %{claim_number}"
+      body: |
+        <p>Hi there!</p>
+        <p>The User has provided new documents for the claim number %{claim_number}.</p>
+    photo_upload_notification:
+      subject: "Document uploaded: Claim %{claim_number}"
+      body: |
+        <p>Hi there!</p>
+        <p>The User has provided new documents for the claim number %{claim_number}.</p>
+    ar_photo_upload_notification:
+      subject: "Document uploaded: Claim %{claim_number}"
+      body: |
+        <p>Hi there!</p>
+        <p>The User has provided new documents for the claim number %{claim_number}.</p>
+    new_claim_to_insurer:
+      subject: "New claim %{claim_number}"
+      body: |
+        <p>Dear Sir or Madam,</p>
+        <p>A claim was created for the object %{object_name} on %{created_date}.</p>
+        <p>Your %{insurer_name}</p>
+    accepted_cash_settlement_email:
+      subject: "Accepted Cash Settlement %{claim_number}"
+      body: |
+        <p>Hello %{adjuster_name},</p>
+        <p>%{claimant_name} has approved your proposal for the case %{claim_number}.</p>
+    rejected_cash_settlement_email:
+      subject: "Rejected Cash Settlement %{claim_number}"
+      body: |
+        <p>Hello %{adjuster_name},</p>
+        <p>%{claimant_name} has rejected your proposal for the case %{claim_number}.</p>
+    cash_settlement_to_claimant:
+      subject: Cash Settlement
+      body: Dear Madam/ Sir %{claimant_name}, please click on the <a href="%{cash_settlement_url}">link</a> for your new status.
+    video_appointment:
+      subject: "%{claim_number}: Live Video Inspection Appointment"
+      body: |
+        <p>Dear Mr / Ms %{claimant_name},</p>
+        <p>%{insurer_name} claim %{claim_number}</p>
+        <p>You set an appointment for a live video inspection that will begin on %{appointment_date} at %{appointment_time}<br/>At the appointment date at time, please click the below to launch the live video inspection:</p>
+        <p><a href="%{appointment_url}">%{insurer_name} CLAIM VIDEO INSPECTION</a></p>
+        <p>Sincerely,</p>
+        <p>%{insurer_name} Smart Bot</p>
+        <img width="150" src="%{logo_url}">
+    video_appointment_adjuster:
+      subject: "%{claim_number}: Live Video Inspection Appointment"
+      body: |
+        <p>Dear Mr / Ms %{adjuster_name},</p>
+        <p>%{insurer_name} claim %{claim_number}</p>
+        <p>You set an appointment for a live video inspection that will begin on %{appointment_date} at %{appointment_time}<br/>At the appointment date at time, please click the below to launch the live video inspection:</p>
+        <p><a href="%{appointment_url}">%{insurer_name} CLAIM VIDEO INSPECTION</a></p>
+        <p>Sincerely,</p>
+        <p>%{insurer_name} Smart Bot</p>
+        <img width="150" src="%{logo_url}">
+    video_appointment_reminder:
+      subject: "Video Appointment Reminder Email"
+      body: |
+        <p>%{insurer_name} claim %{claim_number}: Appointment for live video inspection in %{reminder} mins. Click the link to start: <a href='%{url}'>%{url}</a></p>
+    appointment:
+      subject: "Video call case- %{claim_number}"
+      body: |
+        <p>Dear Mr / Ms %{claimant_lastname},</p>
+        <p>Mr / Ms %{adjuster_name} (the claims adjuster) invites you to a video call with MotionsCall Versicherung AG.</p>
+        <p>Before we can start we ask you to read and accept the following terms and conditions:</p>
+        <p>By starting the video call, you also accept that your own volume will be used for the call.</p>
+        <p>Please click the following %{video_call_link} to start the video call.</p>
+        <br>
+        <p>Sincerely,</p>
+        <p>Your MotionsCall Versicherung AG</p>
+        <img width="150" src="%{logo_url}">
+        <p>MotionsCall Versicherung AG</p>
+        <p>Adenauerring 7, 81737 Munich</p>
+        <p>Telephone: (089) 5121-0</p>
+        <p>Telefax: (089) 5121-1000</p>
+        <p>E-Mail: service.de@motionscall.com</p>
+        <p>DE-Mail: service@motionscall.de-mail.de</p>
+        <p>Website: www.motionscall.de</p>
+        <p>Chairman of the board: Antonio Cangeri</p>
+        <p>Executive Board: Giovanni Liverani (Chairman), Bernd Felske, Stefan Lehmann, Milan Novotný, Dr. Rainer Sommer, Dr. Robert Wehn</p>
+        <p>MotionsCall Insurance is part of the MotionsCall Group.</p>
+        <br>
+        <p>This message contains confidential information and is exclusively for the person addressed or their representative. If you are not the intended recipient of this message and its contents, please notify the sender immediately. Any form of unauthorised use, publication, reproduction, copying or disclosure of the content of the e-mail is not permitted.</p>
+    notify:
+    claim_report_summary:
+      subject: "Damage %{claim_number} from %{sent_at}"
+      body: |
+        <p> Dear, </p>
+        <p> Please review damage %{claim_number} in the attachment. </p>
+        <p> Sincerely, </p>
+        <p>%{insurer_name} Smart Bot </p>
+    claim_report_summary_to_claimant:
+      subject: "Damage %{claim_number} from %{sent_at}"
+      body: |
+        <p>Guten Tag,</p>
+        <p>Anbei erhalten Sie die Kopie der ausgefüllten Schadenmeldung zum AVIS-Kennzeichen: %{registration_number} für Ihre Unterlagen.
+        <p>Mit freundlichen Grüßen,</p>
+        <p>MotionsCloud GmbH</p>
+  insured_building_mailer:
+    new_insured_building_to_insurer:
+      subject: "New object %{object_name}"
+      body: |
+        <p>Dear Sir or Madam,</p>
+        <p>
+          The user %{adjuster_name} created a new object:<br/>
+          %{object_name}
+        </p>
+        <br/>
+  snapshot_mailer:
+    with_pdf_attachment:
+      attachment_filename: "%{claim_number}- Photos from the video call.pdf"
+      subject: "%{claim_number}: Photos from the video call"
+      greeting: "Dear %{adjuster_name},"
+      body: "Please review the photos of %{claim_number} in the attachment."
+  user_mailer:
+    registration:
+      set_your_password: Create your password
+      subject: MotionsCall-MotionsCloud platform registration
+      body: |
+        <p>Dear Mr / Ms %{user_name},</p>
+        <p>Your e-mail was registered on our MotionsCall video inspection platform. Please click on the following link to generate your password.</p>
+        <p>%{set_new_password_url}</p>
+        <p>Then you will be redirected to the login of the MotionsCall video inspection platform. Please use your e-mail address as your username.</p>
+        <p>Sincerely,</p>
+        <p>MotionsCloud Smart Bot</p>
+    reset_password_instructions:
+      set_new_password: Change your password
+      user_subject: Reset Password Instructions
+      body: |
+        <p>Dear Sir or Madam %{user_name}!</p>
+        <p>Someone has requested a link to change your password. You can do this through the link below</p>
+        <p>%{set_new_password_url}</p>
+        <p>If you didn't request this, please ignore this email.</p>
+        <p>Your password won't change until you access the link above and create a new one.</p>
+        <br />
+        <p>Sincerely,</p>
+        <p>MotionsCloud Smart Bot</p>
+  picture_app_mailer:
+    subject: "Notification from the %{insurer_name} team"
+    body: |
+      <p>Dear Sir or Madam, please click on the link and upload the required photos of your case.</p>
+      <p>%{picture_app_url}</p>
+      <p>Sincerely, the%{insurer_name} Team</p>
+  claim_status_mailer:
+    subject: "Notification from the %{insurer_name} Team"
+    body: |
+      <p>Dear Sir or Madam.</p>
+      <p>We have an update of your status case number %{claim_number}</p>
+      <p>%{url}</p>
+      <p>Details: %{details}</p>
+      <p> Sincerely, The %{insurer_name} Team </p>
+  claim_assignment_mailer:
+    subject: "New assignment for the case %{claim_number}"
+    body: |
+      <p>You have been assigned the case %{claim_number} for an expert opinion.</p>
+      <p>You can find details under the following %{claim_link}</p>
+      <br />
+      <p>Best regards,</p>
+      <p>%{insurer_name}</p>
+  klickmal_mailer:
+    case_report_summary:
+      subject: "MotionsCloud Review Report: Car AI Inspection - %{case_number} from %{sent_at}"
+      body: |
+        <p> Dear, </p>
+        <p> Please review case number / application number %{case_number} in the attachment. </p>
+        <p> Sincerely, </p>
+        <p>%{insurer_name} Smart Bot </p>
+        <p>%{sent_at} </p>
+  two_factor_authentication_emailer:
+    verification_code_email:
+      subject: "Notification from the %{insurer_name} team"
+      body: "%{verification_code} is your MCS Verification Code for sign in. This code is valid in 5 minutes."
