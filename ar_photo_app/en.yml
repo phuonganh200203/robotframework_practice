@@ -1,64 +1,402 @@
-# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
-
 en:
-  devise:
-    confirmations:
-      confirmed: "Your e-mail address has been successfully confirmed."
-      send_instructions: "You will receive an e-mail with instructions for how to confirm your email address in a few minutes."
-      send_paranoid_instructions: "If your e-mail address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes."
-    failure:
-      already_authenticated: "You are already registered."
-      inactive: "Your user account is not yet activated"
-      invalid: "Invalid %{authentication_keys} or password."
-      locked: "Your account is locked."
-      last_attempt: "You have one more attempt before your account is locked."
-      not_found_in_database: "Invalid %{authentication_keys} or password."
-      timeout: "Your session expired. Please sign in again to continue."
-      unauthenticated: "You must log in or sign up before you can continue."
-      unconfirmed: "You have to confirm your e-mail address before continuing."
-    mailer:
-      confirmation_instructions:
-        subject: "Confirmation instructions"
-      reset_password_instructions:
-        subject: "Reset password instructions"
-      unlock_instructions:
-        subject: "Unlock instructions"
-      email_changed:
-        subject: "E-mail changed"
-      password_change:
-        subject: "Password changed"
-    omniauth_callbacks:
-      failure: 'Could not authenticate you from %{kind} because "%{reason}".'
-      success: "Successfully authenticated from %{kind} account."
-    passwords:
-      no_token: "You cannot access this page without receiving a password reset e-mail. If you received an e-mail to reset your password, make sure you used the full URL provided."
-      send_instructions: "We have sent you a link to change your password."
-      send_paranoid_instructions: "If your e-mail address is available in our database, you will receive a password recovery link to your email address within a few minutes."
-      updated: "Password successfully changed. Logged in successfully."
-      updated_not_active: "Your password was changed successfully"
-    registrations:
-      destroyed: "Bye! Your account has been successfully cancelled. We hope to see you again soon."
-      signed_up: "Welcome! You have signed up successfully."
-      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
-      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
-      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please follow the link to activate your account."
-      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address."
-      updated: "Your account has been updated successfully."
-    sessions:
-      signed_in: "Log in successfully."
-      signed_out: "Successfully logged off."
-      already_signed_out: "Successfully logged off."
-    unlocks:
-      send_instructions: "You will receive an email with instructions for how to unlock your account in a few minutes."
-      send_paranoid_instructions: "If your account exists, you will receive an email with instructions for how to unlock it in a few minutes."
-      unlocked: "Your account has been unlocked successfully. Please sign in to continue."
-  errors:
-    messages:
-      already_confirmed: "was already confirmed, please try signing in"
-      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
-      expired: "has expired, please request a new one"
-      not_found: "not found"
-      not_locked: "was not locked"
-      not_saved:
-        one: "1 error prohibited this %{resource} from being saved:"
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+  enumerize:
+    predict_part:
+      carpart:
+        sli_side_turn_light: Side Turn Light
+        tyre: Tyre
+        alloy_wheel: Alloy Wheel
+        hli_head_light: Head Light
+        hood: Hood
+        fwi_windshield: Windshield
+        flp_front_license_plate: Front License Plate
+        door: Door
+        front_door: Front door
+        rear_door: Rear door
+        mirror: Mirror
+        handle: Handle
+        qpa_quarter_panel: Quarter Panel
+        fender: Fender
+        grille: Grille
+        fbu_front_bumper: Front Bumper
+        rocker_panel: Rocker Panel
+        rbu_rear_bumper: Rear Bumper
+        pillar: Pillar
+        roof: Roof
+        blp_back_license_plate: Back License Plate
+        window: Window
+        rwi_rear_windshield: Rear Windshield
+        trunk: Trunk
+        tail_gate: Tail Gate
+        tli_tail_light: Tail Light
+        fbe_fog_light_bezel: Fog Light Bezel
+        fli_fog_light: Fog Light
+        fuel_tank_door: Fuel Tank Door
+        lli_low_bumper_tail_light: Low Bumper Tail Light
+        hpa_header_panel: Hpa header panel
+        bpg_bumper_guard: Bpg bumper guard
+        hsl_high_mount_stop_light: Hsl high mount stop light
+        quw_quater_window: Quw quater window
+        def_window_deflector: Def window deflector
+        step_bar: Step bar
+        running_board: Running board
+        A_pillar: A pillar
+        B_pillar: B pillar
+        C_pillar: C pillar
+        D_pillar: D pillar
+        rac_roof_rack: Rac roof rack
+        rai_roof_rail: Rai roof rail
+        spo_roof_spoiler: Spo roof spoiler
+        sun_roof: Sun roof
+        antenna: Antenna
+        exhaust: Exhaust
+        bpn_bed_panel: Bpn bed panel
+        bcv_bed_cover: Bcv bed cover
+        mpa_mid_panel: Mpa mid panel
+        rpa_rear_panel: Rpa_rear panel
+        rdo_rear_door: Rdo rear door
+        extra_cost: Extra Costs
+        paint_extra_cost: Paint
+        additional_extra_cost: Extra Costs
+        additional_other_cost: Other Costs
+        door_handle: Door Handle
+        hood_bonnet: Hood/Bonnet
+        trunk_boot_tailgate: Trunk/Boot/Tailgate
+        wheel: Wheel
+        headlight: Headlight
+        taillight: Taillight
+        door_window: Door Window
+        door_mirror: Door Mirror
+        turn_light: Turn Light
+        number_plate: Number Plate
+        front_bumper: Front Bumper
+        rear_bumper: Rear Bumper
+        left_front_fog_light: Left Front Fog Light
+        right_front_fog_light: Right Front Fog Light
+        left_rear_fog_light: Left Rear Fog Light
+        right_rear_fog_light: Right Rear Fog Light
+        left_front_fender: Left Front Fender
+        right_front_fender: Right Front Fender
+        left_quarter_panel: Left Quarter Panel
+        right_quarter_panel: Right Quarter Panel
+        left_front_wheel: Left Front Wheel
+        right_front_wheel: Right Front Wheel
+        left_rear_wheel: Left Rear Wheel
+        right_rear_wheel: Right Rear Wheel
+        left_front_door: Left Front Door
+        right_front_door: Right Front Door
+        left_rear_door: Left Rear Door
+        right_rear_door: Right Rear Door
+        front_windshield: Front Windshield
+        rear_windshield: Rear Windshield
+        left_headlight: Left Headlight
+        rear_headlight: Rear Headlight
+        left_taillight: Left Taillight
+        right_taillight: Right Taillight
+        left_rocker_panel: Left Rocker Panel
+        right_rocker_panel: Right Rocker Panel
+        left_front_door_window: Left Front Door Window
+        right_front_door_window: Right Front Door Window
+        left_rear_door_window: Left Rear Door Window
+        right_rear_door_window: Right Rear Door Window
+        left_door_mirror: Left Door Mirror
+        right_door_mirror: Right Door Mirror
+        left_front_door_handle: Left Front Door Handle
+        right_front_door_handle: Right Front Door Handle
+        left_rear_door_handle: Left Rear Door Handle
+        right_rear_door_handle: Right Rear Door Handle
+        left_fuel_tank_door: Left Fuel Tank Door
+        right_fuel_tank_door: Right Fuel Tank Door
+        left_side_turn_light: Left Side Turn Light
+        right_side_turn_light: Right Side Turn Light
+        front_number_plate: Front Number Plate
+        rear_number_plate: Rear Number Plate
+        front_spoiler: Front Spoiler
+        roof_spoiler: Roof Spoiler
+        rear_spoiler: Rear Spoiler
+        front_bumper_flare: Front Bumper Flare
+        fender_flare: Fender Flare
+        rear_bumper_flare: Rear Bumper Flare
+        quarter_panel_flare: Quarter Panel Flare
+        rear_diffusor: Rear Diffusor
+        door_mirror_glass: Door Mirror Glass
+        rear_fog_light: Rear fog light
+      sides:
+        front: Front
+        rear: Rear
+        left: Left
+        right: Right
+        front_left: Front left
+        front_right: Front right
+        rear_left: Rear left
+        rear_right: Rear right
+      side_1:
+        na: N/A
+        front: Front
+        rear: Rear
+      side_2:
+        na: N/A
+        left: Left
+        right: Right
+      side_3:
+        first_third: 1st Third
+        middle: Middle
+        last_third: Last Third
+        upper_first: Upper First
+        lower_first: Lower First
+        upper_second: Upper Second
+        lower_second: Lower Second
+        upper_third: Upper Third
+        lower_third: Lower Third
+      treatment:
+        repair: Repair
+        replace: Replace
+        totaled: Totaled
+        na: N/A
+        rr: Remove and Reinstall
+        paint: Painting
+        polish: Polish
+        at: Anti-corrosion Treatment
+        sp: Spot Repair
+      damage:
+        scratch: Scratch
+        crack: Crack
+        loose: Loose
+        dent: Dent
+        thin: Thin
+        broken: Broken
+        lamp_broken: Lamp Broken
+        glass_broken_hole: Glass Broken Hole
+        rust: Rust
+        total_missing: Total/Missing
+        severe: Severe
+        missing: Missing
+        na: N/A
+        blended_paint: Blended paint
+      severity:
+        low: Low
+        medium: Medium
+        high: High
+      damage_size:
+        na: "N/A"
+        smaller_than_a4_paper: Smaller than A4 Paper
+        greater_than_a4_paper: Bigger than A4 Paper
+    claim_import_history:
+      import_type:
+        csv: CSV
+        email: Email
+        api: API
+      status:
+        new: New
+        pending: Pending
+        progress: Progress
+        finish: Finished
+        cancel: Cancel
+    vehicle_type_of_body:
+      sedan: LIMOUSINE
+      station_wagon: KOMBI
+      hatchback: HATCHBACK
+      suv: SUV
+      small_car: SMALL CAR
+      van: VAN
+      pickup_truck: PICKUP
+    vehicle_type:
+      passenger_car: Personenwagen
+      pick_up: Transporter
+      off_road_vehicle: Geländewagen
+    vehicle_engine_type:
+      gasoline: Gasoline
+      hydrogen: Hydrogen
+      gasoline_alcohol: Gasoline/Alcohol
+      gasoline_electric: Gasoline/Electric
+      diesel: Diesel
+      gasoline_electric_plug_in: Gasoline/Electric Plug-in
+      strom_electric: Electric
+      diesel_electric_plug_in: Diesel/Electric Plug-in
+      diesel_electric: Diesel/Electric
+      gasoline_natural_gas: Gasoline/Natural Gas
+      gasoline_natural_gas_alcohol: Gasoline/Natural Gas/Alcohol
+    vehicle_type_of_transmission:
+      automatic: Automatic
+      direct_drive: Direct Drive
+      manual: Manual
+      manual_standard: Manual Standard
+    vehicle_charge:
+      no_classification: keine Zuordnung
+      compressor: Kompressor
+      compressor_and_turbo: Kompressor und Turbo
+      turbo: Turbo
+    vehicle_manufacturer:
+      abt: ABT
+      ac_schnitzer: AC Schnitzer
+      acura: Acura
+      alfa_romeo: Alfa Romeo
+      alpina: Alpina
+      alpine: Alpine
+      apex: Apex
+      arrinera: Arrinera
+      artega: Artega
+      ascari: Ascari
+      aston_martin: Aston Martin
+      audi: Audi
+      bac: BAC
+      bmw: BMW
+      bentley: Bentley
+      bertone: Bertone
+      borgward: Borgward
+      brabham: Brabham
+      brabus: Brabus
+      breckland: Breckland
+      bugatti: Bugatti
+      buick: Buick
+      cadillac: Cadillac
+      caparo: Caparo
+      carlsson: Carlsson
+      caterham: Caterham
+      chevrolet: Chevrolet
+      chrysler: Chrysler
+      citroen: Citroen
+      covini: Covini
+      cupra: Cupra
+      czinger: Czinger
+      ds: DS
+      dacia: Dacia
+      daewoo: Daewoo
+      daihatsu: Daihatsu
+      daimler: Daimler
+      datsun: Datsun
+      de_tomaso: De Tomaso
+      devon: Devon
+      dodge: Dodge
+      donkervoort: Donkervoort
+      edag: EDAG
+      edo: Edo
+      elfin: Elfin
+      eterniti: Eterniti
+      fm_auto: FM Auto
+      fpv: FPV
+      farbio: Farbio
+      ferrari: Ferrari
+      fiat: Fiat
+      fisker: Fisker
+      ford: Ford
+      gac: GAC
+      gm: GM
+      gmc: GMC
+      gta: GTA
+      genesis: Genesis
+      gordon_murray: Gordon Murray
+      gumpert: Gumpert
+      hsv: HSV
+      hamann: Hamann
+      hennessey: Hennessey
+      holden: Holden
+      honda: Honda
+      hummer: Hummer
+      hyundai: Hyundai
+      icona: Icona
+      infiniti: Infiniti
+      isuzu: Isuzu
+      italdesign: Italdesign
+      iveco: Iveco
+      jaguar: Jaguar
+      jeep: Jeep
+      ktm: KTM
+      karma: Karma
+      kia: Kia
+      kleemann: Kleemann
+      koenigsegg: Koenigsegg
+      lcc: LCC
+      lada: Lada
+      lamborghini: Lamborghini
+      lancia: Lancia
+      land_rover: Land Rover
+      larte: Larte
+      leblanc: Leblanc
+      lexus: Lexus
+      lincoln: Lincoln
+      lobini: Lobini
+      loremo: Loremo
+      lotus: Lotus
+      lucid: Lucid
+      lynk_co: Lynk Co
+      mg: MG
+      mansory: Mansory
+      marcos: Marcos
+      maserati: Maserati
+      maybach: Maybach
+      mazda: Mazda
+      mazel: Mazel
+      mclaren: McLaren
+      mercedes_benz: Mercedes-Benz
+      mercury: Mercury
+      mindset: Mindset
+      mini: Mini
+      mitsubishi: Mitsubishi
+      mitsuoka: Mitsuoka
+      morgan: Morgan
+      nanoflowcell: NanoFlowcell
+      nismo: Nismo
+      nissan: Nissan
+      noble: Noble
+      orca: ORCA
+      oldsmobile: Oldsmobile
+      opel: Opel
+      pgo: PGO
+      pagani: Pagani
+      panoz: Panoz
+      peugeot: Peugeot
+      pininfarina: Pininfarina
+      plymouth: Plymouth
+      polestar: Polestar
+      pontiac: Pontiac
+      porsche: Porsche
+      proton: Proton
+      qoros: Qoros
+      ram: Ram
+      renault: Renault
+      rimac: Rimac
+      rinspeed: Rinspeed
+      rivian: Rivian
+      rolls_royce: Rolls-Royce
+      rover: Rover
+      saab: Saab
+      saleen: Saleen
+      saturn: Saturn
+      scion: Scion
+      seat: Seat
+      singer: Singer
+      skoda: Skoda
+      smart: Smart
+      sony: Sony
+      spada: Spada
+      spyker: Spyker
+      ssangyong: SsangYong
+      startech: Startech
+      stola: Stola
+      strosek: Strosek
+      studiotorino: StudioTorino
+      subaru: Subaru
+      suzuki: Suzuki
+      tvr: TVR
+      tata: Tata
+      techart: TechArt
+      tesla: Tesla
+      think: Think
+      toyota: Toyota
+      tramontana: Tramontana
+      valmet: Valmet
+      vauxhall: Vauxhall
+      venturi: Venturi
+      vinfast: VinFast
+      volkswagen: Volkswagen
+      volvo: Volvo
+      vuhl: Vuhl
+      wald: Wald
+      wiesmann: Wiesmann
+      "yes": "Yes"
+      zagato: Zagato
+      zenvo: Zenvo
+    vin_number_information_source:
+      msc: MotionsCloud
+      vin_decoder: VinDecoder
+      schwakeh: Schwakeh
