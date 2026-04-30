@@ -1,6 +1,6 @@
 en:
   label:
-    operation_number: Vorgangsnummer
+    operation_number: Operation Number
   button:
     next: NEXT
     send: SEND
@@ -66,12 +66,12 @@ en:
     confirm_claim: "Do you really want to delete the case/ transaction: %{claim_number}?"
     photo_confirm_sms: Should these snapshots be deleted?
     confirm_file: Do you really want to delete this file?
-    confirm_insurer: "Do you really want to delete the insurer: %{insurer_name}?"
+    confirm_insurer: "Do you really want to delete the client: %{insurer_name}?"
   soft_deletion:
-    confirm_insurer: "Do you really want to disable the insurer: %{insurer_name}?"
+    confirm_insurer: "Do you really want to disable the client: %{insurer_name}?"
   restoration:
     title: Restore case
-    confirm_insurer: "Do you really want to restore the insurer: %{insurer_name}?"
+    confirm_insurer: "Do you really want to restore the client: %{insurer_name}?"
   confirm:
     title: Are you sure?
     commit: Delete
